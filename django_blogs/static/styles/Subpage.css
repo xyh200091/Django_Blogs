@@ -1,0 +1,21 @@
+.subpage_head {
+    height: 5vw;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: left;
+    box-shadow: 1px 0 1px 1px rgba(0, 0, 0, 0.151);
+    position: fixed;
+}
+
+.subpage_head>div {
+    font-size: 3vw;
+    line-height: 5vw;
+    margin-left: 2vw;
+}
+
+.subpage_head>span {
+    font-size: 0.8vw;
+    margin-left: 1vw;
+    padding-top: 2.8vw;
+}

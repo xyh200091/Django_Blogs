@@ -1,0 +1,114 @@
+/* 后台管理系统样式 */
+/* #admin {} */
+
+.admin_head {
+    display: flex;
+    justify-content: space-between;
+    height: 5vw;
+    background-color: rgb(46, 76, 121);
+}
+
+.admin_title {
+    padding: 0 5vw;
+}
+
+.admin_title>span {
+    color: #fff;
+    font-size: 2.5vw;
+    line-height: 5vw;
+    letter-spacing: 0.2vw;
+}
+
+.admin_user {
+    margin-right: 5vw;
+    display: flex;
+}
+
+.admin_user>button {
+    height: 3vw;
+    margin: auto 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    padding: 0.5vw;
+    border: 0;
+    border-radius: 0.5vw;
+}
+
+.admin_user>button:hover {
+    box-shadow: 0 0 0.1vw 0.2vw rgba(255, 255, 255, 0.358);
+}
+
+.admin_point_to {
+    width: 0px;
+    height: 0px;
+    border: 0.5vw solid transparent;
+    border-bottom: 0.5vw solid #fff;
+    margin: 0 auto;
+}
+
+.admin_user_handle {
+    padding: 1vw;
+    border-radius: 0.5vw;
+    display: block;
+    box-shadow: 0px 0px 3px 1px rgb(182, 182, 182);
+}
+
+.admin_user_handle>span {
+    font-size: 1vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.129);
+}
+
+
+.admin_catalog {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    top: 5vw;
+    background-color: rgb(228, 228, 228);
+    width: 10vw;
+}
+
+.admin_catalog>div {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.admin_catalog>div>span {
+    padding: 0.6vw 0;
+    padding-left: 1.5vw;
+    background-color: rgb(49, 100, 171);
+    border-radius: 0.3vw;
+    font-size: 1vw;
+    cursor: default;
+}
+
+.admin_catalog>div>div {
+    padding: 0.4vw 0;
+    padding-left: 1.5vw;
+    font-size: 0.8vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+}
+
+.admin_btn_stylr_1 {
+    background-color: rgba(55, 103, 171, 0.562);
+}
+
+.admin_catalog>div>div:hover {
+    background-color: rgba(55, 103, 171, 0.711);
+}
+
+.admin_btn_stylr_0 {
+    background-color: rgba(55, 103, 171, 0.711);
+}
+
+.admin_content {
+    position: absolute;
+    bottom: 0;
+    top: 5vw;
+    left: 10vw;
+    right: 0;
+    overflow: auto;
+}
