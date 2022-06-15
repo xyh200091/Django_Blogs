@@ -61,3 +61,55 @@
     color: rgb(112, 156, 197);
     line-height: 2vw;
 }
+
+
+.classify_add {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(215, 234, 250);
+    padding: 2vw;
+    border-radius: 1vw;
+    top: 50%;
+    left: 50%;
+    /* transform: translateY(-50%); */
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 0px 0.1vw 0.2vw rgb(220, 220, 220);
+}
+
+.add_title {
+    font-size: 2vw;
+    text-align: center;
+    padding-bottom: 0.5vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.293);
+    margin-bottom: 1vw;
+}
+
+.add_name {
+    font-size: 1.5vw;
+    line-height: 2vw;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+.add_color {
+    margin: 0 auto;
+    margin-bottom: 1vw;
+}
+
+.classify_add>button {
+    width: 10vw;
+    margin: 0 auto;
+    font-size: 1.8vw;
+    border: 0;
+    background-color: rgba(205, 205, 205, 0.518);
+    border-radius: 0.5vw;
+    box-shadow: 0 0 0.1vw 0.1vw rgba(0, 0, 0, 0.249);
+}
+
+.error_text {
+    font-size: 1vw;
+    margin: 0.5vw 0;
+    text-align: center;
+    color: red;
+}

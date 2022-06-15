@@ -3084,3 +3084,2095 @@ INFO 2022-06-10 16:12:40,499 basehttp 187 "GET /static/css/app.d34dc49855c6f28c9
 INFO 2022-06-10 16:12:40,503 basehttp 187 "GET /static/js/app.c46f9aca01cfc976c74c.js.map HTTP/1.1" 200 500476
 INFO 2022-06-10 16:12:40,513 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
 INFO 2022-06-10 16:12:41,489 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117
+INFO 2022-06-10 20:12:32,794 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-10 20:12:52,870 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:12:53,702 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:12:53,705 basehttp 187 "GET /static/css/app.0d93c10d3b1b7206fc7b8eb35b68507b.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:12:53,720 basehttp 187 "GET /static/js/app.a2c9e46d95a7f3137ee5.js HTTP/1.1" 200 173059
+INFO 2022-06-10 20:12:53,728 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:12:53,809 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-super-lower&tomo-high-hat.json HTTP/1.1" 200 1271
+WARNING 2022-06-10 20:12:53,880 log 241 Not Found: /favicon.ico
+WARNING 2022-06-10 20:12:53,881 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2583
+INFO 2022-06-10 20:12:55,358 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 286
+INFO 2022-06-10 20:12:58,808 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:12:58,818 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 239
+INFO 2022-06-10 20:12:59,451 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:12:59,464 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 195
+INFO 2022-06-10 20:13:00,009 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:13:00,025 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 142
+INFO 2022-06-10 20:13:00,579 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:13:00,587 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 89
+INFO 2022-06-10 20:13:01,221 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:13:01,232 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:13:12,319 basehttp 187 "GET /static/css/app.0d93c10d3b1b7206fc7b8eb35b68507b.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:13:12,464 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:13:12,486 basehttp 187 "GET /static/css/app.0d93c10d3b1b7206fc7b8eb35b68507b.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:13:12,487 basehttp 187 "GET /static/js/app.a2c9e46d95a7f3137ee5.js.map HTTP/1.1" 200 500328
+INFO 2022-06-10 20:13:12,523 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+ERROR 2022-06-10 20:13:34,361 log 241 Internal Server Error: /classify/del/
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 40, in post
+    Classify_Id = Classify.objects.get(Classify_Id=classify_Id)  # 查询数据
+  File "D:\Python\App\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+Essay.models.Classify.DoesNotExist: Classify matching query does not exist.
+ERROR 2022-06-10 20:13:34,366 basehttp 187 "POST /classify/del/ HTTP/1.1" 500 81810
+INFO 2022-06-10 20:14:09,206 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-10 20:18:07,531 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-10 20:18:11,431 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:18:12,386 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:18:12,403 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js HTTP/1.1" 200 173077
+INFO 2022-06-10 20:18:12,416 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:18:12,422 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:18:12,438 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:18:12,495 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:18:12,587 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js.map HTTP/1.1" 200 500408
+INFO 2022-06-10 20:18:12,632 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:18:14,091 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:20:03,958 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:20:03,977 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:20:03,985 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:20:03,986 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:20:03,987 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:20:04,016 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:20:04,035 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:20:04,074 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js.map HTTP/1.1" 200 500408
+INFO 2022-06-10 20:20:04,078 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:20:05,739 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 409
+INFO 2022-06-10 20:20:10,621 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:10,633 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 362
+INFO 2022-06-10 20:20:11,247 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:11,257 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 316
+INFO 2022-06-10 20:20:11,612 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:11,622 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 268
+INFO 2022-06-10 20:20:11,800 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:11,809 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 221
+INFO 2022-06-10 20:20:12,011 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:12,023 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 174
+INFO 2022-06-10 20:20:12,194 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:12,205 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 130
+INFO 2022-06-10 20:20:12,368 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:12,378 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 77
+INFO 2022-06-10 20:20:12,577 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:20:12,588 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:20:13,054 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 68
+INFO 2022-06-10 20:20:13,062 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:21:43,542 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:21:43,564 basehttp 187 "GET /static/css/app.76162a84e5c0a21d3943a6568c6434f4.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:21:43,602 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:21:43,605 basehttp 187 "GET /static/css/app.76162a84e5c0a21d3943a6568c6434f4.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:21:43,611 basehttp 187 "GET /static/js/app.abe3c2749a0af56440c5.js HTTP/1.1" 200 173182
+INFO 2022-06-10 20:21:43,620 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:21:43,626 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:21:43,688 basehttp 187 "GET /static/js/app.abe3c2749a0af56440c5.js.map HTTP/1.1" 200 500620
+INFO 2022-06-10 20:21:43,706 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:21:45,044 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:22:26,923 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:22:26,961 basehttp 187 "GET /static/css/app.76162a84e5c0a21d3943a6568c6434f4.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:22:26,961 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:22:27,003 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:22:27,003 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:22:27,022 basehttp 187 "GET /static/css/app.76162a84e5c0a21d3943a6568c6434f4.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:22:27,035 basehttp 187 "GET /static/js/app.abe3c2749a0af56440c5.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:22:27,094 basehttp 187 "GET /static/js/app.abe3c2749a0af56440c5.js.map HTTP/1.1" 200 500620
+INFO 2022-06-10 20:22:27,101 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:22:28,132 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 122
+ERROR 2022-06-10 20:23:09,012 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:23:09,017 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:23:18,968 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:23:18,972 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:23:20,277 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:23:20,280 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-10 20:23:24,080 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:23:24,104 basehttp 187 "GET /static/css/app.c138963c5e73b1def28be11c9be84fd2.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:23:24,120 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:23:24,138 basehttp 187 "GET /static/js/app.1559444d37ece8dbdbc3.js HTTP/1.1" 200 173182
+INFO 2022-06-10 20:23:24,149 basehttp 187 "GET /static/css/app.c138963c5e73b1def28be11c9be84fd2.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:23:24,161 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:23:24,163 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:23:24,222 basehttp 187 "GET /static/js/app.1559444d37ece8dbdbc3.js.map HTTP/1.1" 200 500620
+INFO 2022-06-10 20:23:24,239 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:23:26,612 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 122
+ERROR 2022-06-10 20:25:12,154 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:12,161 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:13,375 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:13,380 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:14,307 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:14,311 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:14,686 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:14,690 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:14,927 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:14,934 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:15,195 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:15,201 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:15,350 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:15,356 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:15,535 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:15,546 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:16,151 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:16,155 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:16,878 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:16,882 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:17,434 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:17,438 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:17,999 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:18,003 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:18,471 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:18,475 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:18,769 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:18,774 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:19,061 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:19,067 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:19,471 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:19,476 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:19,665 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:19,669 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:19,907 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:19,910 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:25:20,055 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:25:20,063 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-10 20:25:20,163 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:25:20,283 basehttp 187 "GET /static/css/app.7aed2aef7dae7baaf898dbb4728e9b59.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:25:20,297 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:25:20,318 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:25:20,324 basehttp 187 "GET /static/css/app.7aed2aef7dae7baaf898dbb4728e9b59.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:25:20,326 basehttp 187 "GET /static/js/app.a11a528efcdadd2ef770.js HTTP/1.1" 200 173180
+INFO 2022-06-10 20:25:20,332 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:25:20,344 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:25:20,381 basehttp 187 "GET /static/js/app.a11a528efcdadd2ef770.js.map HTTP/1.1" 200 500616
+INFO 2022-06-10 20:25:20,405 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:25:20,461 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,462 basehttp 187 "GET /static/css/app.7aed2aef7dae7baaf898dbb4728e9b59.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,462 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,502 basehttp 187 "GET /static/js/app.a11a528efcdadd2ef770.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,509 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:25:20,543 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:25:20,546 basehttp 187 "GET /static/css/app.7aed2aef7dae7baaf898dbb4728e9b59.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:25:20,606 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:25:20,615 basehttp 187 "GET /static/js/app.a11a528efcdadd2ef770.js.map HTTP/1.1" 200 500616
+INFO 2022-06-10 20:25:20,688 basehttp 187 "GET /static/css/app.7aed2aef7dae7baaf898dbb4728e9b59.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,690 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,691 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,692 basehttp 187 "GET /static/js/app.a11a528efcdadd2ef770.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:25:20,739 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:25:20,743 basehttp 187 "GET /static/css/app.7aed2aef7dae7baaf898dbb4728e9b59.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:25:20,776 basehttp 187 "GET /static/js/app.a11a528efcdadd2ef770.js.map HTTP/1.1" 200 500616
+INFO 2022-06-10 20:25:20,814 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:25:22,197 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 122
+INFO 2022-06-10 20:25:58,024 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:25:58,056 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:25:58,057 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:25:58,066 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js HTTP/1.1" 200 173077
+INFO 2022-06-10 20:25:58,078 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:25:58,100 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:25:58,116 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:25:58,155 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js.map HTTP/1.1" 200 500408
+INFO 2022-06-10 20:25:58,170 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:26:00,196 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 122
+INFO 2022-06-10 20:28:44,449 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:28:44,475 basehttp 187 "GET /static/css/app.a6051631b75d32a79f261fbcae6d6061.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:28:44,509 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:28:44,517 basehttp 187 "GET /static/css/app.a6051631b75d32a79f261fbcae6d6061.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:28:44,521 basehttp 187 "GET /static/js/app.7fcf9991e62e0ae3ff31.js HTTP/1.1" 200 172853
+INFO 2022-06-10 20:28:44,530 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:28:44,537 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:28:44,596 basehttp 187 "GET /static/js/app.7fcf9991e62e0ae3ff31.js.map HTTP/1.1" 200 500039
+INFO 2022-06-10 20:28:44,621 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:28:45,635 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 122
+INFO 2022-06-10 20:28:46,578 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:28:46,588 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 77
+INFO 2022-06-10 20:28:47,392 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:28:47,402 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:28:50,627 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 68
+INFO 2022-06-10 20:28:50,640 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:28:51,356 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 68
+INFO 2022-06-10 20:28:51,367 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:30:12,626 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:30:12,647 basehttp 187 "GET /static/css/app.a6051631b75d32a79f261fbcae6d6061.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:30:12,653 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:30:12,670 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:30:12,679 basehttp 187 "GET /static/js/app.7fcf9991e62e0ae3ff31.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:30:12,701 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:30:12,720 basehttp 187 "GET /static/css/app.a6051631b75d32a79f261fbcae6d6061.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:30:12,750 basehttp 187 "GET /static/js/app.7fcf9991e62e0ae3ff31.js.map HTTP/1.1" 200 500039
+INFO 2022-06-10 20:30:12,763 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:30:14,112 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:32:21,053 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:32:21,103 basehttp 187 "GET /static/css/app.93666b521f655f64d59e9c0f1968d7b2.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:32:21,106 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:32:21,112 basehttp 187 "GET /static/js/app.470077b5d9789743f1ce.js HTTP/1.1" 200 173008
+INFO 2022-06-10 20:32:21,128 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:32:21,152 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:32:21,175 basehttp 187 "GET /static/css/app.93666b521f655f64d59e9c0f1968d7b2.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:32:21,211 basehttp 187 "GET /static/js/app.470077b5d9789743f1ce.js.map HTTP/1.1" 200 500327
+INFO 2022-06-10 20:32:21,227 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:32:22,373 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 72
+INFO 2022-06-10 20:34:07,670 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:34:07,702 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:34:07,704 basehttp 187 "GET /static/css/app.931128c6a4ce0a1cf2e03cd98ec061c6.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:34:07,744 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:34:07,757 basehttp 187 "GET /static/css/app.931128c6a4ce0a1cf2e03cd98ec061c6.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:34:07,766 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:34:07,779 basehttp 187 "GET /static/js/app.96c811b121fea5fb2ba7.js HTTP/1.1" 200 173022
+INFO 2022-06-10 20:34:07,847 basehttp 187 "GET /static/js/app.96c811b121fea5fb2ba7.js.map HTTP/1.1" 200 500388
+INFO 2022-06-10 20:34:07,860 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:34:09,252 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 72
+INFO 2022-06-10 20:34:10,923 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-10 20:34:10,933 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:34:14,197 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 68
+INFO 2022-06-10 20:34:14,209 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+ERROR 2022-06-10 20:35:20,526 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:20,531 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:21,779 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:21,782 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:22,308 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:22,313 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:22,569 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:22,574 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:22,778 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:22,781 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:23,042 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:23,046 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:23,200 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:23,207 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:23,478 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:23,483 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:23,603 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:23,608 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-10 20:35:23,778 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-10 20:35:23,786 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-10 20:35:23,996 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:35:24,023 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css HTTP/1.1" 200 43639
+INFO 2022-06-10 20:35:24,024 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-10 20:35:24,039 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js HTTP/1.1" 200 173077
+INFO 2022-06-10 20:35:24,048 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-10 20:35:24,080 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:35:24,082 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:35:24,156 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js.map HTTP/1.1" 200 500408
+INFO 2022-06-10 20:35:24,176 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:35:26,298 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-10 20:36:16,053 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-10 20:36:16,083 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css HTTP/1.1" 304 0
+INFO 2022-06-10 20:36:16,087 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:36:16,092 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:36:16,092 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js HTTP/1.1" 304 0
+INFO 2022-06-10 20:36:16,130 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-10 20:36:16,192 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js.map HTTP/1.1" 200 500408
+INFO 2022-06-10 20:36:16,229 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-10 20:36:16,306 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css.map HTTP/1.1" 200 59084
+INFO 2022-06-10 20:36:17,521 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 14:09:19,395 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 14:09:40,328 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 14:09:40,342 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 14:09:40,476 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,481 basehttp 187 "GET /static/css/app.d68321b876951f2d09fab2faefa75a08.css HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,496 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,631 basehttp 187 "GET /static/js/app.e79c5b465f7989808c40.js HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,824 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-super-lower&tomo-high-hat.json HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,840 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,897 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_00/closet-default-v2.png HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,897 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-super-lower.png HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,899 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/newyear-upper.png HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:40,932 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-high-hat.png HTTP/1.1" 304 0
+WARNING 2022-06-11 14:09:40,956 log 241 Not Found: /favicon.ico
+WARNING 2022-06-11 14:09:40,958 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2583
+WARNING 2022-06-11 14:09:40,992 log 241 Not Found: /favicon.ico
+WARNING 2022-06-11 14:09:40,995 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2583
+INFO 2022-06-11 14:09:41,135 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:41,136 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:41,137 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-03.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 14:09:59,254 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 14:10:40,798 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 14:10:41,726 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 165
+INFO 2022-06-11 14:10:43,393 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 14:10:43,404 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117
+INFO 2022-06-11 15:27:07,437 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:27:08,971 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:29:31,644 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:29:32,621 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:30:23,468 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:30:24,454 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:31:13,996 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:31:15,233 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:31:26,359 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:31:27,162 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:32:15,744 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:32:16,548 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:33:16,769 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:33:17,820 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:34:48,869 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 15:34:49,957 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 15:39:52,863 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 15:39:53,805 basehttp 187 "GET /static/css/app.58184cdd6b9fd7edfcb49cfba628ce1d.css HTTP/1.1" 200 44606
+INFO 2022-06-11 15:39:53,811 basehttp 187 "GET /static/js/app.214b9e6bef3af9c5e38d.js HTTP/1.1" 200 174356
+INFO 2022-06-11 15:39:54,481 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117
+INFO 2022-06-11 15:40:06,633 basehttp 187 "GET /static/css/app.58184cdd6b9fd7edfcb49cfba628ce1d.css HTTP/1.1" 304 0
+INFO 2022-06-11 15:40:06,873 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 15:40:06,879 basehttp 187 "GET /static/css/app.58184cdd6b9fd7edfcb49cfba628ce1d.css.map HTTP/1.1" 200 61007
+INFO 2022-06-11 15:40:06,898 basehttp 187 "GET /static/js/app.214b9e6bef3af9c5e38d.js.map HTTP/1.1" 200 504240
+INFO 2022-06-11 15:40:06,940 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 15:40:10,667 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:46:16,026 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 15:46:16,069 basehttp 187 "GET /static/css/app.64ff7949c97105c0656de1ef7b903f2f.css HTTP/1.1" 200 44606
+INFO 2022-06-11 15:46:16,080 basehttp 187 "GET /static/js/app.a1a580c0d6aa72ab8915.js HTTP/1.1" 200 174396
+INFO 2022-06-11 15:46:16,208 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 15:46:16,261 basehttp 187 "GET /static/css/app.64ff7949c97105c0656de1ef7b903f2f.css.map HTTP/1.1" 200 61007
+INFO 2022-06-11 15:46:16,303 basehttp 187 "GET /static/js/app.a1a580c0d6aa72ab8915.js.map HTTP/1.1" 200 504347
+INFO 2022-06-11 15:46:16,360 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 15:46:17,599 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 164
+INFO 2022-06-11 15:46:27,703 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:46:27,719 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 119
+INFO 2022-06-11 15:46:33,198 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:46:33,210 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 169
+INFO 2022-06-11 15:48:05,674 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 15:48:05,708 basehttp 187 "GET /static/css/app.14962accd34ed02d3a335369a873e33e.css HTTP/1.1" 200 44606
+INFO 2022-06-11 15:48:05,717 basehttp 187 "GET /static/js/app.0b518b31f2da6ef127ef.js HTTP/1.1" 200 174407
+INFO 2022-06-11 15:48:05,759 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 15:48:05,811 basehttp 187 "GET /static/js/app.0b518b31f2da6ef127ef.js.map HTTP/1.1" 200 504464
+INFO 2022-06-11 15:48:05,840 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 15:48:05,941 basehttp 187 "GET /static/css/app.14962accd34ed02d3a335369a873e33e.css.map HTTP/1.1" 200 61007
+INFO 2022-06-11 15:48:06,580 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 169
+INFO 2022-06-11 15:48:08,721 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:48:08,738 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 119
+INFO 2022-06-11 15:48:12,421 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:48:12,434 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 168
+ERROR 2022-06-11 15:49:06,339 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 15:49:06,347 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 15:49:27,396 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 15:49:27,424 basehttp 187 "GET /static/css/app.3df33bb0308529fb418039c1ce713d5c.css HTTP/1.1" 200 44606
+INFO 2022-06-11 15:49:27,462 basehttp 187 "GET /static/css/app.3df33bb0308529fb418039c1ce713d5c.css.map HTTP/1.1" 200 61007
+INFO 2022-06-11 15:49:27,473 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 15:49:27,481 basehttp 187 "GET /static/js/app.2dbae80c77783573c20c.js HTTP/1.1" 200 174427
+INFO 2022-06-11 15:49:27,548 basehttp 187 "GET /static/js/app.2dbae80c77783573c20c.js.map HTTP/1.1" 200 504549
+INFO 2022-06-11 15:49:27,566 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 15:49:29,016 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 168
+INFO 2022-06-11 15:49:31,010 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:49:31,024 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 119
+INFO 2022-06-11 15:49:34,391 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:49:34,405 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 168
+INFO 2022-06-11 15:49:41,515 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:49:41,528 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 225
+INFO 2022-06-11 15:49:43,744 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:49:43,757 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 168
+INFO 2022-06-11 15:49:44,088 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:49:44,108 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 119
+INFO 2022-06-11 15:49:44,503 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:49:44,514 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-11 15:49:45,012 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:49:45,029 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 15:49:49,620 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:49:49,633 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 74
+INFO 2022-06-11 15:49:54,096 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:49:54,111 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 123
+INFO 2022-06-11 15:54:56,978 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 123
+INFO 2022-06-11 15:55:00,481 basehttp 187 "GET /static/Live2dApi/indexes/models.json HTTP/1.1" 200 675
+INFO 2022-06-11 15:55:00,490 basehttp 187 "GET /static/Live2dApi/indexes/ShizukuTalk/shizuku-48/textures.json HTTP/1.1" 200 37
+INFO 2022-06-11 15:55:00,504 basehttp 187 "GET /static/Live2dApi/indexes/ShizukuTalk/shizuku-48/00&01&02&03&04&05&06&07.json HTTP/1.1" 200 4003
+INFO 2022-06-11 15:55:00,515 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,549 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,559 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,562 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/03/03.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,564 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/04/04.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,566 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,569 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/05/05.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,572 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/06/06.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,581 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/07/07.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,635 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f02.exp.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,641 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f03.exp.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,641 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f04.exp.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,643 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f01.exp.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,644 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/physics.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,645 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_00.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,647 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/pose.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,652 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,655 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,665 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_05.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,666 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,670 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,671 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_04.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,672 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_03.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,677 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_04.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,682 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_05.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,682 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_03.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,689 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_07.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,693 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_08.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,695 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_06.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,696 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_09.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,707 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_A.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,712 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_B.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,715 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_A2.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,720 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_C.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,722 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_B2.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,723 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_C2.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,724 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_C2_copy.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,729 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/kurakura1.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,732 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/kurakura2.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,734 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,735 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/kurakura3.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,744 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_03.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,745 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,747 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_05.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:00,749 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_04.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,056 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/nepnep/textures.json HTTP/1.1" 200 22
+INFO 2022-06-11 15:55:01,069 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/nepnep/default.json HTTP/1.1" 200 2737
+INFO 2022-06-11 15:55:01,080 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,101 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,101 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,102 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,182 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/happy.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,183 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/normal.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,185 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/unhappy.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,198 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/deformed.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,199 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/enjoy.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,201 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/physics.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,202 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/kira.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,202 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/pose.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,203 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/mtn/idle_00.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,208 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/mtn/idle_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,211 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/mtn/idle_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,556 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/textures.json HTTP/1.1" 200 99701
+INFO 2022-06-11 15:55:01,570 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&summer2017-high-upper&spring-2018-lower&xmas-hat.json HTTP/1.1" 200 1276
+INFO 2022-06-11 15:55:01,596 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/spring-2018-lower.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,598 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/xmas-hat.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:01,600 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/summer2017-high-upper.png HTTP/1.1" 200 32622
+INFO 2022-06-11 15:55:01,999 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/blanc_normal/textures.json HTTP/1.1" 200 25
+INFO 2022-06-11 15:55:02,018 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/blanc_normal/00&01&02&03.json HTTP/1.1" 200 1101
+INFO 2022-06-11 15:55:02,029 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,051 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,051 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/03/03.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,052 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,052 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,145 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/physics.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,148 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/mtn/idle_00.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,150 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/mtn/idle_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,151 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/mtn/idle_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,530 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/textures.json HTTP/1.1" 200 61115
+INFO 2022-06-11 15:55:02,541 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/closet-default-v2&newyear-upper&tomo-high-lower&vdays-hat.json HTTP/1.1" 200 1265
+INFO 2022-06-11 15:55:02,552 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,572 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_00/closet-default-v2.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,573 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_02/tomo-high-lower.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,573 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_03/vdays-hat.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,573 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_01/newyear-upper.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,659 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/motions/idle-01.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,665 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/motions/idle-03.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:02,665 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/motions/idle-02.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:03,032 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/noir/textures.json HTTP/1.1" 200 22
+INFO 2022-06-11 15:55:03,043 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/noir/00&01&02.json HTTP/1.1" 200 988
+INFO 2022-06-11 15:55:03,052 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:03,071 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:03,072 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:03,072 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:03,147 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/physics.json HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:04,487 basehttp 187 "GET /static/Live2dApi/indexes/ShizukuTalk/shizuku-48/default.json HTTP/1.1" 200 4003
+INFO 2022-06-11 15:55:06,148 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/blanc_normal/default.json HTTP/1.1" 200 1101
+INFO 2022-06-11 15:55:06,689 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/textures.json HTTP/1.1" 200 270
+INFO 2022-06-11 15:55:06,701 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/animal-costume.json HTTP/1.1" 200 1855
+INFO 2022-06-11 15:55:06,715 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/model.moc HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,729 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/textures/textures_00/animal-costume.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,770 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath1.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,771 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath5.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,772 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath3.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,775 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath7.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,775 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath2.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,776 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath8.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:06,780 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Sleeping.mtn HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:07,048 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/nepnep/00&01&02.json HTTP/1.1" 200 2737
+INFO 2022-06-11 15:55:07,254 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&valley2017-upper&tomo-low-lower&school2017-hat.json HTTP/1.1" 200 1274
+INFO 2022-06-11 15:55:07,282 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/valley2017-upper.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:07,283 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/tomo-low-lower.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:07,283 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/school2017-hat.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:07,423 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/sorceress-costume.json HTTP/1.1" 200 1858
+INFO 2022-06-11 15:55:07,443 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/textures/textures_00/sorceress-costume.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:08,141 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/overalls-costume-white.json HTTP/1.1" 200 1863
+INFO 2022-06-11 15:55:08,174 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/textures/textures_00/overalls-costume-white.png HTTP/1.1" 200 441296
+INFO 2022-06-11 15:55:09,057 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&school2017-upper&cba-super-lower&vdays-hat.json HTTP/1.1" 200 1270
+INFO 2022-06-11 15:55:09,081 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/school2017-upper.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:09,085 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/vdays-hat.png HTTP/1.1" 200 64886
+INFO 2022-06-11 15:55:09,584 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/closet-default-v2&valley2017-upper&xmas-lower&newyear-hat.json HTTP/1.1" 200 1265
+INFO 2022-06-11 15:55:09,613 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_01/valley2017-upper.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:09,614 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_02/xmas-lower.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:09,615 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_03/newyear-hat.png HTTP/1.1" 304 0
+INFO 2022-06-11 15:55:14,026 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 15:55:14,040 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 73
+INFO 2022-06-11 15:55:19,193 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:55:19,205 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 126
+INFO 2022-06-11 15:55:23,971 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:55:23,986 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 181
+INFO 2022-06-11 15:55:30,449 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:55:30,462 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 230
+INFO 2022-06-11 15:55:36,939 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 15:55:36,951 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 278
+INFO 2022-06-11 16:06:21,651 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 14
+INFO 2022-06-11 16:18:11,540 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 16:18:12,707 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-11 16:22:52,593 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 16:22:52,601 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 16:22:55,078 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 16:22:55,083 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 16:22:59,060 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 16:23:00,835 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 16:23:00,858 basehttp 187 "GET /static/js/app.002d3996866d56051ab0.js HTTP/1.1" 200 175036
+INFO 2022-06-11 16:23:00,903 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 16:23:00,964 basehttp 187 "GET /static/css/app.cbd3b329c024362b46b0bcf926fa6a82.css HTTP/1.1" 200 44691
+INFO 2022-06-11 16:23:00,980 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 16:23:00,983 basehttp 187 "GET /static/css/app.cbd3b329c024362b46b0bcf926fa6a82.css.map HTTP/1.1" 200 61184
+INFO 2022-06-11 16:23:01,040 basehttp 187 "GET /static/js/app.002d3996866d56051ab0.js.map HTTP/1.1" 200 506379
+INFO 2022-06-11 16:23:01,085 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 16:23:04,424 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 278
+INFO 2022-06-11 16:23:06,069 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:23:06,081 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 223
+INFO 2022-06-11 16:23:06,364 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:23:06,386 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 170
+INFO 2022-06-11 16:23:06,544 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:23:06,562 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 122
+INFO 2022-06-11 16:23:06,716 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:23:06,759 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 73
+INFO 2022-06-11 16:23:06,910 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:23:06,925 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 16:23:07,091 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 68
+INFO 2022-06-11 16:23:07,120 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 16:23:11,732 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 16:23:11,746 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 72
+INFO 2022-06-11 16:23:17,030 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 16:23:17,045 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 120
+ERROR 2022-06-11 16:23:22,408 log 241 Internal Server Error: /classify/add/
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\App\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\App\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\App\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\App\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\App\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'python' for key 'essay_classify.Classify_Name'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 67, in post
+    Classify.objects.create(Classify_Name=add_name).save()
+  File "D:\Python\App\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 514, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Python\App\lib\site-packages\django\db\models\base.py", line 806, in save
+    self.save_base(
+  File "D:\Python\App\lib\site-packages\django\db\models\base.py", line 857, in save_base
+    updated = self._save_table(
+  File "D:\Python\App\lib\site-packages\django\db\models\base.py", line 1000, in _save_table
+    results = self._do_insert(
+  File "D:\Python\App\lib\site-packages\django\db\models\base.py", line 1041, in _do_insert
+    return manager._insert(
+  File "D:\Python\App\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 1434, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\Python\App\lib\site-packages\django\db\models\sql\compiler.py", line 1621, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python\App\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Python\App\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python\App\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python\App\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\App\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python\App\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\App\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\App\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\App\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\App\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\App\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\App\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'python' for key 'essay_classify.Classify_Name'")
+ERROR 2022-06-11 16:23:22,422 basehttp 187 "POST /classify/add/ HTTP/1.1" 500 218737
+INFO 2022-06-11 16:24:55,266 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 16:24:56,170 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 16:25:39,388 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\EssayCode.py changed, reloading.
+INFO 2022-06-11 16:25:40,378 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 16:25:50,257 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 50
+INFO 2022-06-11 16:27:31,912 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 16:27:34,220 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css HTTP/1.1" 200 44691
+INFO 2022-06-11 16:27:34,276 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css.map HTTP/1.1" 200 61184
+INFO 2022-06-11 16:27:34,292 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js HTTP/1.1" 200 175102
+INFO 2022-06-11 16:27:34,323 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 16:27:34,337 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_00/closet-default-v2.png HTTP/1.1" 200 18864
+INFO 2022-06-11 16:27:34,372 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 16:27:34,459 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 16:27:34,575 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js.map HTTP/1.1" 200 506653
+INFO 2022-06-11 16:27:34,670 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 16:27:36,656 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 120
+INFO 2022-06-11 16:27:42,125 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 50
+INFO 2022-06-11 16:27:56,133 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 16:27:56,156 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 169
+INFO 2022-06-11 16:27:58,654 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:27:58,667 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 121
+INFO 2022-06-11 16:27:58,838 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:27:58,875 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 73
+INFO 2022-06-11 16:28:00,483 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 16:28:00,498 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 16:28:05,949 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 16:28:05,963 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 72
+INFO 2022-06-11 16:28:32,510 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/closet-default-v2&tomo-low-upper&spring-2018-lower&summer2017-hat.json HTTP/1.1" 200 1273
+INFO 2022-06-11 16:28:32,552 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_02/spring-2018-lower.png HTTP/1.1" 304 0
+INFO 2022-06-11 16:28:32,554 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_01/tomo-low-upper.png HTTP/1.1" 200 26433
+INFO 2022-06-11 16:28:32,565 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_03/summer2017-hat.png HTTP/1.1" 200 83789
+INFO 2022-06-11 16:28:41,928 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 16:28:41,982 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css HTTP/1.1" 304 0
+INFO 2022-06-11 16:28:41,982 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:28:41,984 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:28:41,999 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:28:42,069 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 16:28:42,137 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js.map HTTP/1.1" 200 506653
+INFO 2022-06-11 16:28:42,145 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 16:28:42,218 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css.map HTTP/1.1" 200 61184
+INFO 2022-06-11 16:28:47,737 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 72
+INFO 2022-06-11 16:29:15,679 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 16:29:15,719 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css HTTP/1.1" 304 0
+INFO 2022-06-11 16:29:15,751 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:29:15,752 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:29:15,752 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:29:15,855 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 16:29:15,857 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css.map HTTP/1.1" 200 61184
+INFO 2022-06-11 16:29:15,904 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js.map HTTP/1.1" 200 506653
+INFO 2022-06-11 16:29:15,957 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 16:29:18,356 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-11 16:29:28,832 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 16:29:28,848 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 16:48:50,253 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 16:48:51,513 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 16:53:49,935 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 16:53:50,861 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 16:54:35,114 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\models.py changed, reloading.
+INFO 2022-06-11 16:54:36,159 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 16:57:43,942 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 16:57:48,943 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 16:57:49,001 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css HTTP/1.1" 304 0
+INFO 2022-06-11 16:57:49,005 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:57:49,012 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:57:49,013 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 16:57:51,004 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css.map HTTP/1.1" 200 61184
+INFO 2022-06-11 16:57:51,069 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js.map HTTP/1.1" 200 506653
+INFO 2022-06-11 16:57:51,093 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 16:57:51,153 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 16:57:51,419 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:02:54,195 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 17:02:55,755 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 17:06:48,311 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:06:48,342 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:06:48,349 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:06:48,352 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:06:48,353 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:06:51,103 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:06:51,137 basehttp 187 "GET /static/js/app.7ddd40f18fbbce3da248.js.map HTTP/1.1" 200 506653
+INFO 2022-06-11 17:06:51,140 basehttp 187 "GET /static/css/app.6c89cd4e75d5e8dbb46979cda5df2a75.css.map HTTP/1.1" 200 61184
+INFO 2022-06-11 17:06:51,163 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-high-hat.png HTTP/1.1" 200 53842
+INFO 2022-06-11 17:06:51,245 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:07:30,424 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 17:07:32,058 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 17:08:44,477 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:08:46,119 basehttp 187 "GET /static/js/app.d9eb91d270ce143b526c.js HTTP/1.1" 200 176428
+INFO 2022-06-11 17:08:46,134 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-super-lower.png HTTP/1.1" 200 27822
+INFO 2022-06-11 17:08:46,145 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/newyear-upper.png HTTP/1.1" 200 44422
+INFO 2022-06-11 17:08:46,245 basehttp 187 "GET /static/css/app.e3b0aac2b1f16a5977910ae5909f1c31.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:08:46,268 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:08:46,313 basehttp 187 "GET /static/js/app.d9eb91d270ce143b526c.js.map HTTP/1.1" 200 514349
+INFO 2022-06-11 17:08:46,353 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:08:46,442 basehttp 187 "GET /static/css/app.e3b0aac2b1f16a5977910ae5909f1c31.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:08:47,210 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:08:47,211 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 17:09:08,887 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:09:08,911 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 17:09:42,986 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:09:43,031 basehttp 187 "GET /static/css/app.e3b0aac2b1f16a5977910ae5909f1c31.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:09:43,066 basehttp 187 "GET /static/js/app.d9eb91d270ce143b526c.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:09:43,118 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:09:43,129 basehttp 187 "GET /static/css/app.e3b0aac2b1f16a5977910ae5909f1c31.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:09:43,197 basehttp 187 "GET /static/js/app.d9eb91d270ce143b526c.js.map HTTP/1.1" 200 514349
+INFO 2022-06-11 17:09:43,207 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:09:43,928 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:09:43,940 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:09:53,595 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:09:53,596 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:10:50,664 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:10:50,667 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+ERROR 2022-06-11 17:12:12,960 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:12:12,965 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 17:12:17,195 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:12:17,226 basehttp 187 "GET /static/css/app.7dad36fdfffcfde5dbc48c9241159576.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:12:17,238 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:12:17,267 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:12:17,287 basehttp 187 "GET /static/js/app.958e888db2bdcc2469ce.js HTTP/1.1" 200 176423
+INFO 2022-06-11 17:12:17,313 basehttp 187 "GET /static/css/app.7dad36fdfffcfde5dbc48c9241159576.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:12:17,323 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:12:17,374 basehttp 187 "GET /static/js/app.958e888db2bdcc2469ce.js.map HTTP/1.1" 200 514334
+INFO 2022-06-11 17:12:17,391 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:12:21,384 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:12:21,386 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:15:42,814 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:15:42,817 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:15:49,391 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:15:49,400 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:16:54,365 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:16:54,397 basehttp 187 "GET /static/css/app.0fa97692068356ea5cc881d2a8149fbe.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:16:54,438 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:16:54,451 basehttp 187 "GET /static/js/app.92b96f40f9c63111b7f5.js HTTP/1.1" 200 177763
+INFO 2022-06-11 17:16:54,470 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:16:54,495 basehttp 187 "GET /static/css/app.0fa97692068356ea5cc881d2a8149fbe.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:16:54,505 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:16:54,569 basehttp 187 "GET /static/js/app.92b96f40f9c63111b7f5.js.map HTTP/1.1" 200 512101
+INFO 2022-06-11 17:16:54,620 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:29:33,232 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:29:33,259 basehttp 187 "GET /static/css/app.39485dfc466ce76f8c107f65cb16fb9a.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:29:33,263 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:29:33,308 basehttp 187 "GET /static/js/app.3427d04427b7652075bb.js HTTP/1.1" 200 176425
+INFO 2022-06-11 17:29:33,319 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:29:33,349 basehttp 187 "GET /static/css/app.39485dfc466ce76f8c107f65cb16fb9a.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:29:33,357 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:29:33,413 basehttp 187 "GET /static/js/app.3427d04427b7652075bb.js.map HTTP/1.1" 200 514437
+INFO 2022-06-11 17:29:33,431 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:29:34,667 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:29:34,669 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:34:26,888 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:34:26,930 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:34:26,942 basehttp 187 "GET /static/css/app.71ef16ea2f1b5097fccdb01a6be808ed.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:34:26,959 basehttp 187 "GET /static/js/app.a0c0e03ca2db39378ec4.js HTTP/1.1" 200 176398
+INFO 2022-06-11 17:34:26,972 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:34:27,041 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:34:27,044 basehttp 187 "GET /static/css/app.71ef16ea2f1b5097fccdb01a6be808ed.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:34:27,099 basehttp 187 "GET /static/js/app.a0c0e03ca2db39378ec4.js.map HTTP/1.1" 200 514312
+INFO 2022-06-11 17:34:27,130 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:34:28,802 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:34:28,805 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+ERROR 2022-06-11 17:34:40,908 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:34:40,916 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 17:34:51,474 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:34:51,505 basehttp 187 "GET /static/css/app.b1e55df5811d183723f052af09a3cf01.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:34:51,537 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:34:51,559 basehttp 187 "GET /static/css/app.b1e55df5811d183723f052af09a3cf01.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:34:51,569 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:34:51,574 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:34:51,582 basehttp 187 "GET /static/js/app.92283deade2e7d047ba5.js HTTP/1.1" 200 176756
+INFO 2022-06-11 17:34:51,669 basehttp 187 "GET /static/js/app.92283deade2e7d047ba5.js.map HTTP/1.1" 200 515711
+INFO 2022-06-11 17:34:51,686 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:34:53,555 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:34:53,558 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+ERROR 2022-06-11 17:34:58,637 log 241 Internal Server Error: /classify/del/
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 40, in post
+    classify_Id = json.loads(request.body)['classify_Id']
+KeyError: 'classify_Id'
+ERROR 2022-06-11 17:34:58,641 basehttp 187 "POST /classify/del/ HTTP/1.1" 500 73171
+ERROR 2022-06-11 17:35:19,367 log 241 Internal Server Error: /classify/del/
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 40, in post
+    classify_Id = json.loads(request.body)['classify_Id']
+KeyError: 'classify_Id'
+ERROR 2022-06-11 17:35:19,371 basehttp 187 "POST /classify/del/ HTTP/1.1" 500 73171
+INFO 2022-06-11 17:36:18,143 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:36:18,194 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 200 45867
+INFO 2022-06-11 17:36:18,200 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:36:18,231 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 200 176751
+INFO 2022-06-11 17:36:18,252 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:36:18,296 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:36:18,300 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:36:18,365 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:36:18,397 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:36:19,170 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:36:19,175 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+WARNING 2022-06-11 17:36:20,796 base 122 Method Not Allowed (POST): /label/del/
+WARNING 2022-06-11 17:36:20,797 log 241 Method Not Allowed: /label/del/
+WARNING 2022-06-11 17:36:20,800 basehttp 187 "POST /label/del/ HTTP/1.1" 405 0
+WARNING 2022-06-11 17:36:24,015 base 122 Method Not Allowed (POST): /label/del/
+WARNING 2022-06-11 17:36:24,016 log 241 Method Not Allowed: /label/del/
+WARNING 2022-06-11 17:36:24,017 basehttp 187 "POST /label/del/ HTTP/1.1" 405 0
+WARNING 2022-06-11 17:37:32,606 base 122 Method Not Allowed (POST): /label/add/
+WARNING 2022-06-11 17:37:32,606 log 241 Method Not Allowed: /label/add/
+WARNING 2022-06-11 17:37:32,610 basehttp 187 "POST /label/add/ HTTP/1.1" 405 0
+INFO 2022-06-11 17:38:24,724 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:38:24,774 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:38:24,865 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:38:24,865 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:38:24,866 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:38:24,882 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:38:24,915 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:38:24,994 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:38:25,010 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:38:27,381 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:38:27,386 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:38:30,747 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 17:38:30,764 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 163
+WARNING 2022-06-11 17:38:56,000 base 122 Method Not Allowed (POST): /label/add/
+WARNING 2022-06-11 17:38:56,000 log 241 Method Not Allowed: /label/add/
+WARNING 2022-06-11 17:38:56,001 basehttp 187 "POST /label/add/ HTTP/1.1" 405 0
+INFO 2022-06-11 17:39:29,119 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:39:29,164 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:39:29,170 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:39:29,172 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:39:29,173 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:39:29,281 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:39:29,315 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:39:29,361 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:39:29,397 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:39:30,153 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:39:30,153 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 163
+WARNING 2022-06-11 17:39:31,684 base 122 Method Not Allowed (POST): /label/del/
+WARNING 2022-06-11 17:39:31,685 log 241 Method Not Allowed: /label/del/
+WARNING 2022-06-11 17:39:31,686 basehttp 187 "POST /label/del/ HTTP/1.1" 405 0
+WARNING 2022-06-11 17:39:32,709 base 122 Method Not Allowed (POST): /label/del/
+WARNING 2022-06-11 17:39:32,710 log 241 Method Not Allowed: /label/del/
+WARNING 2022-06-11 17:39:32,713 basehttp 187 "POST /label/del/ HTTP/1.1" 405 0
+INFO 2022-06-11 17:40:15,733 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\urls.py changed, reloading.
+INFO 2022-06-11 17:40:16,863 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 17:40:18,956 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:40:18,993 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:40:19,004 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:40:19,008 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:40:19,008 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:40:20,148 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 163
+INFO 2022-06-11 17:40:20,156 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:40:20,983 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:40:21,015 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:40:21,022 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:40:21,127 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:40:23,386 basehttp 187 "POST /label/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 17:40:23,399 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:41:13,962 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 17:41:14,899 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 17:41:15,771 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:41:15,813 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:15,841 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:15,848 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:15,849 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:16,648 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:41:16,659 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:41:17,820 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:41:17,850 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:41:17,939 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:41:18,021 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+ERROR 2022-06-11 17:41:19,987 log 241 Internal Server Error: /label/del/
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 114, in post
+    Label_Id = ClassifyModel.objects.get(Label_Id=label_Id)  # 查询数据
+  File "D:\Python\App\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 482, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 1071, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 1089, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\Python\App\lib\site-packages\django\db\models\query.py", line 1096, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\Python\App\lib\site-packages\django\db\models\sql\query.py", line 1466, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\Python\App\lib\site-packages\django\db\models\sql\query.py", line 1496, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\Python\App\lib\site-packages\django\db\models\sql\query.py", line 1342, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\Python\App\lib\site-packages\django\db\models\sql\query.py", line 1156, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\Python\App\lib\site-packages\django\db\models\sql\query.py", line 1640, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'Label_Id' into field. Choices are: Classify_Id, Classify_Name
+ERROR 2022-06-11 17:41:19,996 basehttp 187 "POST /label/del/ HTTP/1.1" 500 119492
+INFO 2022-06-11 17:41:56,092 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-11 17:41:57,120 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-11 17:41:57,981 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:41:58,035 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:58,036 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:58,053 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:58,060 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:41:59,186 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:41:59,197 basehttp 187 "GET /label/get/ HTTP/1.1" 200 88
+INFO 2022-06-11 17:42:00,105 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:42:00,118 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:42:00,131 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:42:00,268 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:42:01,217 basehttp 187 "POST /label/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 17:42:01,231 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-11 17:42:33,557 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:42:33,616 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:42:33,618 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:42:33,631 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:42:33,633 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:42:33,692 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:42:33,729 basehttp 187 "GET /static/js/app.035fdb5bd6cd609fc5e4.js.map HTTP/1.1" 200 515707
+INFO 2022-06-11 17:42:33,775 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:42:33,818 basehttp 187 "GET /static/css/app.25298886948689401a32327170ac6e90.css.map HTTP/1.1" 200 63482
+INFO 2022-06-11 17:42:35,099 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:42:35,099 basehttp 187 "GET /label/get/ HTTP/1.1" 200 149
+ERROR 2022-06-11 17:42:57,154 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:42:57,158 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:43:03,594 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:43:03,598 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 17:43:04,429 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:43:04,464 basehttp 187 "GET /static/css/app.17fa9cbf28a93b86efebc30c8e8fa730.css HTTP/1.1" 200 45846
+INFO 2022-06-11 17:43:04,498 basehttp 187 "GET /static/js/app.b674a0fb91c5dfbc548c.js HTTP/1.1" 200 176751
+INFO 2022-06-11 17:43:04,595 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:43:04,607 basehttp 187 "GET /static/css/app.17fa9cbf28a93b86efebc30c8e8fa730.css.map HTTP/1.1" 200 63475
+INFO 2022-06-11 17:43:04,651 basehttp 187 "GET /static/js/app.b674a0fb91c5dfbc548c.js.map HTTP/1.1" 200 515713
+INFO 2022-06-11 17:43:04,702 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:43:06,311 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:43:06,311 basehttp 187 "GET /label/get/ HTTP/1.1" 200 149
+INFO 2022-06-11 17:43:15,852 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:43:15,894 basehttp 187 "GET /static/css/app.17fa9cbf28a93b86efebc30c8e8fa730.css HTTP/1.1" 304 0
+INFO 2022-06-11 17:43:15,903 basehttp 187 "GET /static/js/app.b674a0fb91c5dfbc548c.js HTTP/1.1" 304 0
+INFO 2022-06-11 17:43:15,904 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:43:15,926 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:43:15,970 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:43:16,015 basehttp 187 "GET /static/js/app.b674a0fb91c5dfbc548c.js.map HTTP/1.1" 200 515713
+INFO 2022-06-11 17:43:16,053 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:43:16,146 basehttp 187 "GET /static/css/app.17fa9cbf28a93b86efebc30c8e8fa730.css.map HTTP/1.1" 200 63475
+ERROR 2022-06-11 17:44:38,330 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:44:38,335 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 17:44:47,372 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:44:47,404 basehttp 187 "GET /static/css/app.e7a8a5a1d3267529706db755042301c9.css HTTP/1.1" 200 45846
+INFO 2022-06-11 17:44:47,415 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:44:47,452 basehttp 187 "GET /static/js/app.f4a79dc6371d9c8effe2.js HTTP/1.1" 200 176798
+INFO 2022-06-11 17:44:47,470 basehttp 187 "GET /static/css/app.e7a8a5a1d3267529706db755042301c9.css.map HTTP/1.1" 200 63475
+INFO 2022-06-11 17:44:47,480 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:44:47,482 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:44:47,559 basehttp 187 "GET /static/js/app.f4a79dc6371d9c8effe2.js.map HTTP/1.1" 200 515890
+INFO 2022-06-11 17:44:47,580 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:44:49,324 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:44:49,325 basehttp 187 "GET /label/get/ HTTP/1.1" 200 149
+INFO 2022-06-11 17:45:44,635 basehttp 187 "POST /label/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 17:45:44,648 basehttp 187 "GET /label/get/ HTTP/1.1" 200 218
+INFO 2022-06-11 17:45:53,418 basehttp 187 "POST /label/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 17:45:53,434 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:45:59,543 basehttp 187 "POST /label/add/ HTTP/1.1" 200 50
+INFO 2022-06-11 17:47:39,529 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:47:39,568 basehttp 187 "GET /static/css/app.ad01adfbc84c4205d0adefef08acb03b.css HTTP/1.1" 200 45846
+INFO 2022-06-11 17:47:39,615 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:47:39,643 basehttp 187 "GET /static/js/app.e28065437c156f3a7161.js HTTP/1.1" 200 176745
+INFO 2022-06-11 17:47:39,657 basehttp 187 "GET /static/css/app.ad01adfbc84c4205d0adefef08acb03b.css.map HTTP/1.1" 200 63475
+INFO 2022-06-11 17:47:39,672 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:47:39,685 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:47:39,761 basehttp 187 "GET /static/js/app.e28065437c156f3a7161.js.map HTTP/1.1" 200 515688
+INFO 2022-06-11 17:47:39,785 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:47:41,083 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:47:41,089 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+ERROR 2022-06-11 17:48:51,088 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:48:51,093 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:48:53,390 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:48:53,394 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:48:54,531 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:48:54,537 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:48:55,249 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:48:55,253 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:48:56,011 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:48:56,024 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 17:48:59,413 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:48:59,456 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:48:59,462 basehttp 187 "GET /static/css/app.284f40cd57670b6b89fc62f19918c70b.css HTTP/1.1" 200 45914
+INFO 2022-06-11 17:48:59,468 basehttp 187 "GET /static/js/app.2d30dbfe18861020401d.js HTTP/1.1" 200 176745
+INFO 2022-06-11 17:48:59,489 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:48:59,520 basehttp 187 "GET /static/css/app.284f40cd57670b6b89fc62f19918c70b.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 17:48:59,521 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:48:59,595 basehttp 187 "GET /static/js/app.2d30dbfe18861020401d.js.map HTTP/1.1" 200 515729
+INFO 2022-06-11 17:48:59,619 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:49:00,853 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:49:00,855 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:54:28,482 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:54:28,522 basehttp 187 "GET /static/css/app.49331b7705f3a65e3fe41a95b273cb04.css HTTP/1.1" 200 45914
+INFO 2022-06-11 17:54:28,543 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:54:28,568 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:54:28,583 basehttp 187 "GET /static/js/app.af3bfbb55a3fc4193d86.js HTTP/1.1" 200 176839
+INFO 2022-06-11 17:54:28,608 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:54:28,633 basehttp 187 "GET /static/css/app.49331b7705f3a65e3fe41a95b273cb04.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 17:54:28,678 basehttp 187 "GET /static/js/app.af3bfbb55a3fc4193d86.js.map HTTP/1.1" 200 516008
+INFO 2022-06-11 17:54:28,692 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:54:29,612 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:54:29,612 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:55:31,593 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:55:31,634 basehttp 187 "GET /static/css/app.ef8fea4e95db94e3c073bf9dadd2b150.css HTTP/1.1" 200 45914
+INFO 2022-06-11 17:55:31,638 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:55:31,653 basehttp 187 "GET /static/js/app.ccd3535f1b91e787f9fd.js HTTP/1.1" 200 176837
+INFO 2022-06-11 17:55:31,685 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:55:31,735 basehttp 187 "GET /static/css/app.ef8fea4e95db94e3c073bf9dadd2b150.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 17:55:31,746 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:55:31,808 basehttp 187 "GET /static/js/app.ccd3535f1b91e787f9fd.js.map HTTP/1.1" 200 515985
+INFO 2022-06-11 17:55:31,835 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:55:34,055 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:55:34,056 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+ERROR 2022-06-11 17:56:29,791 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:56:29,798 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:56:32,413 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:56:32,418 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:56:32,962 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:56:32,967 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:56:33,663 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:56:33,668 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:56:34,387 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:56:34,402 basehttp 187 "GET / HTTP/1.1" 500 86187
+ERROR 2022-06-11 17:56:35,527 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\App\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\App\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\App\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\App\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\App\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-11 17:56:35,531 basehttp 187 "GET / HTTP/1.1" 500 86187
+INFO 2022-06-11 17:56:43,150 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:56:43,190 basehttp 187 "GET /static/css/app.8e94e2dd55e8a3bf53b7c025ca414f56.css HTTP/1.1" 200 45914
+INFO 2022-06-11 17:56:43,226 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:56:43,246 basehttp 187 "GET /static/js/app.4ffdbc416b5db4c26cc4.js HTTP/1.1" 200 176837
+INFO 2022-06-11 17:56:43,252 basehttp 187 "GET /static/css/app.8e94e2dd55e8a3bf53b7c025ca414f56.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 17:56:43,263 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:56:43,273 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:56:43,337 basehttp 187 "GET /static/js/app.4ffdbc416b5db4c26cc4.js.map HTTP/1.1" 200 515985
+INFO 2022-06-11 17:56:43,349 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:56:44,569 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:56:44,584 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:57:42,935 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:57:42,980 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:57:42,984 basehttp 187 "GET /static/css/app.a637421baeca46eafa500702c538680a.css HTTP/1.1" 200 45914
+INFO 2022-06-11 17:57:43,012 basehttp 187 "GET /static/js/app.e59afb47a9902836fa83.js HTTP/1.1" 200 176839
+INFO 2022-06-11 17:57:43,016 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:57:43,045 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:57:43,071 basehttp 187 "GET /static/css/app.a637421baeca46eafa500702c538680a.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 17:57:43,117 basehttp 187 "GET /static/js/app.e59afb47a9902836fa83.js.map HTTP/1.1" 200 515992
+INFO 2022-06-11 17:57:43,133 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:57:44,291 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:57:44,296 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:59:25,455 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:59:25,456 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:59:26,577 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 17:59:26,578 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:59:34,579 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 17:59:34,619 basehttp 187 "GET /static/css/app.e96f92f4341ca940f1d822cce8643a16.css HTTP/1.1" 200 45914
+INFO 2022-06-11 17:59:34,626 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 17:59:34,647 basehttp 187 "GET /static/js/app.e5ea45bf92136dd7da0c.js HTTP/1.1" 200 176911
+INFO 2022-06-11 17:59:34,664 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 17:59:34,694 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 17:59:34,719 basehttp 187 "GET /static/css/app.e96f92f4341ca940f1d822cce8643a16.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 17:59:34,761 basehttp 187 "GET /static/js/app.e5ea45bf92136dd7da0c.js.map HTTP/1.1" 200 516174
+INFO 2022-06-11 17:59:34,782 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 17:59:35,925 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 17:59:36,038 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 18:00:25,430 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 18:00:25,460 basehttp 187 "GET /static/css/app.6a5cd9356402c2dc04128a71877b8978.css HTTP/1.1" 200 45914
+INFO 2022-06-11 18:00:25,485 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 18:00:25,510 basehttp 187 "GET /static/js/app.60843326575add50a574.js HTTP/1.1" 200 176911
+INFO 2022-06-11 18:00:25,518 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 18:00:25,556 basehttp 187 "GET /static/css/app.6a5cd9356402c2dc04128a71877b8978.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 18:00:25,556 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 18:00:25,618 basehttp 187 "GET /static/js/app.60843326575add50a574.js.map HTTP/1.1" 200 516167
+INFO 2022-06-11 18:00:25,643 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 18:00:27,333 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 18:00:27,334 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 18:16:40,323 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 18:16:40,358 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css HTTP/1.1" 200 45914
+INFO 2022-06-11 18:16:40,366 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-11 18:16:40,384 basehttp 187 "GET /static/js/app.c73500552f400131b104.js HTTP/1.1" 200 176915
+INFO 2022-06-11 18:16:40,397 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-11 18:16:40,440 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 18:16:40,461 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 18:16:40,486 basehttp 187 "GET /static/js/app.c73500552f400131b104.js.map HTTP/1.1" 200 516252
+INFO 2022-06-11 18:16:40,524 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 18:16:42,705 basehttp 187 "GET /label/get/ HTTP/1.1" 200 287
+INFO 2022-06-11 18:16:42,705 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 116
+INFO 2022-06-11 18:16:51,357 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-11 18:16:51,371 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 164
+INFO 2022-06-11 18:19:32,189 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 18:19:32,212 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117
+INFO 2022-06-11 18:19:33,666 basehttp 187 "POST /label/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 18:19:33,680 basehttp 187 "GET /label/get/ HTTP/1.1" 200 226
+INFO 2022-06-11 18:19:34,775 basehttp 187 "POST /label/del/ HTTP/1.1" 200 62
+INFO 2022-06-11 18:19:34,789 basehttp 187 "GET /label/get/ HTTP/1.1" 200 157
+INFO 2022-06-11 18:19:37,436 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-11 18:19:37,463 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css HTTP/1.1" 304 0
+INFO 2022-06-11 18:19:37,473 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-11 18:19:37,474 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 304 0
+INFO 2022-06-11 18:19:37,475 basehttp 187 "GET /static/js/app.c73500552f400131b104.js HTTP/1.1" 304 0
+INFO 2022-06-11 18:19:37,516 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-11 18:19:37,568 basehttp 187 "GET /static/js/app.c73500552f400131b104.js.map HTTP/1.1" 200 516252
+INFO 2022-06-11 18:19:37,618 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-11 18:19:37,699 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css.map HTTP/1.1" 200 63597
+INFO 2022-06-11 18:19:39,467 basehttp 187 "GET /label/get/ HTTP/1.1" 200 157
+INFO 2022-06-11 18:19:39,493 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117
+INFO 2022-06-11 18:23:20,882 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-11 18:23:21,909 autoreload 677 Watching for file changes with StatReloader
