@@ -6,6 +6,7 @@
     justify-content: left;
     box-shadow: 1px 0 1px 1px rgba(0, 0, 0, 0.151);
     position: fixed;
+    z-index: 1;
 }
 
 .subpage_head>div {

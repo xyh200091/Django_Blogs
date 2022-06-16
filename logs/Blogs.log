@@ -5176,3 +5176,440 @@ INFO 2022-06-11 18:19:39,467 basehttp 187 "GET /label/get/ HTTP/1.1" 200 157
 INFO 2022-06-11 18:19:39,493 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117
 INFO 2022-06-11 18:23:20,882 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
 INFO 2022-06-11 18:23:21,909 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-16 09:50:08,280 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-16 09:56:46,857 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-16 09:56:49,832 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 09:56:50,030 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css HTTP/1.1" 200 45915
+INFO 2022-06-16 09:56:50,031 basehttp 187 "GET /static/js/app.c73500552f400131b104.js HTTP/1.1" 200 176916
+INFO 2022-06-16 09:56:50,047 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js HTTP/1.1" 200 498133
+INFO 2022-06-16 09:56:50,066 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-16 09:56:50,227 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-super-lower&tomo-high-hat.json HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,258 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/model.moc HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,296 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_00/closet-default-v2.png HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,297 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/newyear-upper.png HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,300 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-super-lower.png HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,303 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-high-hat.png HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,406 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-03.mtn HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,406 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-02.mtn HTTP/1.1" 304 0
+INFO 2022-06-16 09:56:50,406 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-01.mtn HTTP/1.1" 304 0
+WARNING 2022-06-16 09:56:50,622 log 241 Not Found: /favicon.ico
+WARNING 2022-06-16 09:56:50,644 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+ERROR 2022-06-16 09:56:56,913 log 241 Internal Server Error: /label/get/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blogs.essay_labelmodel' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 94, in get
+    if Labels:
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 324, in __bool__
+    self._fetch_all()
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 130, in __iter__
+    for row in compiler.results_iter(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1312, in results_iter
+    results = self.execute_sql(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blogs.essay_labelmodel' doesn't exist")
+ERROR 2022-06-16 09:56:56,928 log 241 Internal Server Error: /classify/get/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blogs.essay_classifymodel' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 18, in get
+    if Classifys:
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 324, in __bool__
+    self._fetch_all()
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 130, in __iter__
+    for row in compiler.results_iter(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1312, in results_iter
+    results = self.execute_sql(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blogs.essay_classifymodel' doesn't exist")
+ERROR 2022-06-16 09:56:56,937 basehttp 187 "GET /label/get/ HTTP/1.1" 500 196279
+ERROR 2022-06-16 09:56:56,958 basehttp 187 "GET /classify/get/ HTTP/1.1" 500 196130
+INFO 2022-06-16 09:57:02,254 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-16 09:57:02,266 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-16 09:57:02,272 basehttp 187 "GET /static/js/app.c73500552f400131b104.js.map HTTP/1.1" 200 516252
+INFO 2022-06-16 09:57:02,280 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css.map HTTP/1.1" 200 63597
+INFO 2022-06-16 09:57:06,485 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 09:57:06,634 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-16 09:57:06,640 basehttp 187 "GET /static/js/app.c73500552f400131b104.js.map HTTP/1.1" 200 516252
+INFO 2022-06-16 09:57:06,647 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-16 09:57:06,812 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css.map HTTP/1.1" 200 63597
+ERROR 2022-06-16 09:57:13,081 log 241 Internal Server Error: /label/get/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blogs.essay_labelmodel' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 94, in get
+    if Labels:
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 324, in __bool__
+    self._fetch_all()
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 130, in __iter__
+    for row in compiler.results_iter(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1312, in results_iter
+    results = self.execute_sql(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blogs.essay_labelmodel' doesn't exist")
+ERROR 2022-06-16 09:57:13,143 basehttp 187 "GET /label/get/ HTTP/1.1" 500 196279
+ERROR 2022-06-16 09:57:13,162 log 241 Internal Server Error: /classify/get/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'blogs.essay_classifymodel' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py", line 18, in get
+    if Classifys:
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 324, in __bool__
+    self._fetch_all()
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 130, in __iter__
+    for row in compiler.results_iter(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1312, in results_iter
+    results = self.execute_sql(
+  File "D:\Python\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Python\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'blogs.essay_classifymodel' doesn't exist")
+ERROR 2022-06-16 09:57:13,219 basehttp 187 "GET /classify/get/ HTTP/1.1" 500 196130
+INFO 2022-06-16 09:57:51,252 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 09:57:51,348 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-16 09:57:51,367 basehttp 187 "GET /static/js/vendor.b07876f42a10375748fd.js.map HTTP/1.1" 200 1573519
+INFO 2022-06-16 09:57:51,370 basehttp 187 "GET /static/js/app.c73500552f400131b104.js.map HTTP/1.1" 200 516252
+INFO 2022-06-16 09:57:51,431 basehttp 187 "GET /static/css/app.aac738006b4b9b29e041606ab7387834.css.map HTTP/1.1" 200 63597
+INFO 2022-06-16 09:57:53,417 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 09:57:53,426 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 09:58:05,125 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-16 09:58:05,135 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-16 09:58:10,357 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-16 09:58:10,370 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 115
+INFO 2022-06-16 09:58:36,500 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-16 09:58:36,511 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 163
+INFO 2022-06-16 09:58:47,450 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-16 09:58:47,477 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 115
+INFO 2022-06-16 09:59:01,937 basehttp 187 "POST /label/add/ HTTP/1.1" 200 56
+INFO 2022-06-16 09:59:01,948 basehttp 187 "GET /label/get/ HTTP/1.1" 200 90
+INFO 2022-06-16 09:59:14,066 basehttp 187 "GET /label/get/ HTTP/1.1" 200 90
+INFO 2022-06-16 09:59:14,067 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 115
+INFO 2022-06-16 09:59:19,511 basehttp 187 "GET /label/get/ HTTP/1.1" 200 90
+INFO 2022-06-16 09:59:19,511 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 115
+INFO 2022-06-16 10:03:08,037 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-16 10:03:15,419 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 10:03:15,730 basehttp 187 "GET /static/css/app.b25a916de143946f2761d546e5f5f307.css HTTP/1.1" 200 45914
+INFO 2022-06-16 10:03:15,732 basehttp 187 "GET /static/js/vendor.e197f5fb2ab6861cf56d.js HTTP/1.1" 200 498133
+INFO 2022-06-16 10:03:15,736 basehttp 187 "GET /static/js/app.e01fb06cec9d97b22b8a.js HTTP/1.1" 200 176954
+WARNING 2022-06-16 10:03:16,255 log 241 Not Found: /favicon.ico
+WARNING 2022-06-16 10:03:16,286 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+ERROR 2022-06-16 10:04:24,511 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-16 10:04:24,520 basehttp 187 "GET / HTTP/1.1" 500 84932
+INFO 2022-06-16 10:04:26,161 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 10:04:26,180 basehttp 187 "GET /static/css/app.0c916cf47ef97d6ef70c0b2d2ef878f0.css HTTP/1.1" 200 45914
+INFO 2022-06-16 10:04:26,189 basehttp 187 "GET /static/js/app.7935c21be52d54d7c861.js HTTP/1.1" 200 177213
+INFO 2022-06-16 10:04:26,193 basehttp 187 "GET /static/js/vendor.e197f5fb2ab6861cf56d.js HTTP/1.1" 200 498133
+INFO 2022-06-16 11:00:17,131 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-16 11:04:39,436 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 11:04:39,569 basehttp 187 "GET /static/css/app.0c916cf47ef97d6ef70c0b2d2ef878f0.css HTTP/1.1" 304 0
+INFO 2022-06-16 11:04:39,580 basehttp 187 "GET /static/js/vendor.e197f5fb2ab6861cf56d.js HTTP/1.1" 304 0
+INFO 2022-06-16 11:04:39,634 basehttp 187 "GET /static/js/app.7935c21be52d54d7c861.js HTTP/1.1" 304 0
+WARNING 2022-06-16 11:04:39,823 log 241 Not Found: /favicon.ico
+WARNING 2022-06-16 11:04:39,833 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+INFO 2022-06-16 11:04:45,895 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 115
+INFO 2022-06-16 11:04:45,900 basehttp 187 "GET /label/get/ HTTP/1.1" 200 90
+INFO 2022-06-16 11:04:50,783 basehttp 187 "POST /label/del/ HTTP/1.1" 200 62
+INFO 2022-06-16 11:04:50,810 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 11:04:52,467 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 11:04:53,804 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 115
+INFO 2022-06-16 11:04:53,806 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 11:04:56,580 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-16 11:04:56,607 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 68
+INFO 2022-06-16 11:04:57,239 basehttp 187 "POST /classify/del/ HTTP/1.1" 200 62
+INFO 2022-06-16 11:04:57,248 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 11:04:59,718 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 11:05:01,045 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 11:05:01,048 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 11:05:16,905 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-16 11:05:16,915 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-16 11:09:58,280 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 11:09:58,352 basehttp 187 "GET /static/css/app.119a09e2eed925a9b56909ab80272316.css HTTP/1.1" 200 45949
+INFO 2022-06-16 11:09:58,354 basehttp 187 "GET /static/js/app.592186ffafce8c53ce96.js HTTP/1.1" 200 177213
+INFO 2022-06-16 11:09:59,426 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 11:09:59,427 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-16 11:13:02,030 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 11:13:02,055 basehttp 187 "GET /static/css/app.2e482592087547f983768b74264f57b5.css HTTP/1.1" 200 45917
+INFO 2022-06-16 11:13:02,058 basehttp 187 "GET /static/js/app.64214c28a74d0b9fca25.js HTTP/1.1" 200 177348
+INFO 2022-06-16 11:13:02,063 basehttp 187 "GET /static/js/vendor.e197f5fb2ab6861cf56d.js HTTP/1.1" 200 498133
+INFO 2022-06-16 11:13:02,957 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-16 11:13:02,957 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 12:27:10,600 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-16 12:27:10,628 basehttp 187 "GET /static/css/app.0460390323c22b9224234bfe3f408fb7.css HTTP/1.1" 200 46418
+INFO 2022-06-16 12:27:10,632 basehttp 187 "GET /static/js/app.7410997210517cfdc50a.js HTTP/1.1" 200 177258
+INFO 2022-06-16 12:27:10,639 basehttp 187 "GET /static/js/vendor.e197f5fb2ab6861cf56d.js HTTP/1.1" 200 498133
+INFO 2022-06-16 12:27:12,136 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 71
+INFO 2022-06-16 12:27:12,144 basehttp 187 "GET /label/get/ HTTP/1.1" 200 14
+INFO 2022-06-16 12:27:17,688 basehttp 187 "POST /classify/add/ HTTP/1.1" 200 56
+INFO 2022-06-16 12:27:17,699 basehttp 187 "GET /classify/get/ HTTP/1.1" 200 117

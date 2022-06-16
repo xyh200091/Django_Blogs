@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 3vw;
+    position: relative;
 }
 
 .classify_sort,
@@ -64,7 +65,7 @@
 
 
 .classify_add {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     background-color: rgb(215, 234, 250);
@@ -73,8 +74,9 @@
     top: 50%;
     left: 50%;
     /* transform: translateY(-50%); */
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-25%) translateY(-25%);
     box-shadow: 0 0px 0.1vw 0.2vw rgb(220, 220, 220);
+    position: fixed;
 }
 
 .add_title {
@@ -112,4 +114,42 @@
     margin: 0.5vw 0;
     text-align: center;
     color: red;
+}
+
+
+.Closebtn {
+    /* background-color: black; */
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    right: 2%;
+    top: 2%;
+    border-radius: 2vw;
+    border: 1px solid #666;
+}
+
+.Closebtn:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: #666;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: 50%;
+    left: 3%;
+}
+
+.Closebtn:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 1px;
+    background: #666;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    top: 50%;
+    left: 3%;
 }
