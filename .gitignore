@@ -128,4 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 #添加.log文件不上传
-*log
+*.log
