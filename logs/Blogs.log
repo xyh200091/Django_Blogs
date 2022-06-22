@@ -5851,3 +5851,22 @@ WARNING 2022-06-21 19:33:03,283 log 241 Not Found: /src/components/Effects/index
 WARNING 2022-06-21 19:33:03,287 basehttp 187 "GET /src/components/Effects/index.vue HTTP/1.1" 404 3277
 INFO 2022-06-21 19:33:03,292 basehttp 187 "GET /static/js/vendor.2946eb3bed6e0466de3a.js HTTP/1.1" 200 188945
 INFO 2022-06-21 19:33:03,293 basehttp 187 "GET /static/js/app.0e80d69dd39a38760065.js HTTP/1.1" 200 164813
+INFO 2022-06-21 19:33:03,374 basehttp 187 "GET /static/img/ttf.adac3a9.jpg HTTP/1.1" 200 956145
+INFO 2022-06-22 19:17:12,522 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-22 19:17:14,135 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-22 19:17:14,254 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-22 19:17:14,312 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 200 190043
+INFO 2022-06-22 19:17:14,314 basehttp 187 "GET /static/css/app.5a7a8f4ab77b68075c0524eb4314308b.css HTTP/1.1" 200 13221
+INFO 2022-06-22 19:17:14,362 basehttp 187 "GET /static/js/app.2dbc67bb954f9c3c2b52.js HTTP/1.1" 200 178068
+INFO 2022-06-22 19:17:14,368 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+WARNING 2022-06-22 19:17:14,579 log 241 Not Found: /favicon.ico
+WARNING 2022-06-22 19:17:14,581 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+INFO 2022-06-22 19:39:51,747 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-22 19:39:51,788 basehttp 187 "GET /static/css/app.b001375b7607790fff9a4226c999fcfa.css HTTP/1.1" 200 13221
+WARNING 2022-06-22 19:39:51,788 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-22 19:39:51,881 basehttp 187 "GET /static/js/app.c2669ef2a3c3160d1a1a.js HTTP/1.1" 200 175062
+INFO 2022-06-22 19:39:51,885 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-22 19:39:51,887 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 200 190043
+INFO 2022-06-22 19:39:55,285 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-22 19:39:55,316 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-22 19:39:56,538 basehttp 187 "GET / HTTP/1.1" 200 555
