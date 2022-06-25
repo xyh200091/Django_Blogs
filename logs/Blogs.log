@@ -5870,3 +5870,77 @@ INFO 2022-06-22 19:39:51,887 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5
 INFO 2022-06-22 19:39:55,285 basehttp 187 "GET / HTTP/1.1" 200 555
 WARNING 2022-06-22 19:39:55,316 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
 INFO 2022-06-22 19:39:56,538 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-22 19:39:56,570 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-25 14:28:37,841 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-25 14:28:41,376 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-25 14:28:41,389 basehttp 187 "GET / HTTP/1.1" 500 85437
+WARNING 2022-06-25 14:28:42,678 log 241 Not Found: /favicon.ico
+WARNING 2022-06-25 14:28:42,689 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+INFO 2022-06-25 14:28:53,371 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-25 14:28:53,505 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-25 14:28:53,577 basehttp 187 "GET /static/css/app.093b25b43581e9ae3c126a5efc940d23.css HTTP/1.1" 200 14296
+INFO 2022-06-25 14:28:53,590 basehttp 187 "GET /static/js/app.2e02f34006205534ccb7.js HTTP/1.1" 200 175905
+INFO 2022-06-25 14:28:53,595 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-25 14:28:53,597 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 200 190043
+INFO 2022-06-25 14:28:53,702 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-super-lower&tomo-high-hat.json HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,722 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/model.moc HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,779 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_00/closet-default-v2.png HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,779 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-super-lower.png HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,779 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-high-hat.png HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,779 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/newyear-upper.png HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,938 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-01.mtn HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,939 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-02.mtn HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:53,940 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-03.mtn HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:56,449 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-25 14:28:56,675 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:56,676 basehttp 187 "GET /static/css/app.093b25b43581e9ae3c126a5efc940d23.css HTTP/1.1" 304 0
+WARNING 2022-06-25 14:28:56,686 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-25 14:28:56,694 basehttp 187 "GET /static/js/app.2e02f34006205534ccb7.js HTTP/1.1" 304 0
+INFO 2022-06-25 14:28:56,695 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 304 0
+INFO 2022-06-25 14:31:12,084 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-25 14:31:13,905 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:33:25,419 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-25 14:33:26,447 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:43:11,363 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-25 14:47:18,899 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:48:26,836 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:48:46,538 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-25 14:48:52,297 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:49:03,661 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-25 14:49:09,569 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:49:51,134 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-25 14:49:54,985 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:50:02,956 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-25 14:50:03,014 basehttp 187 "GET /static/css/app.093b25b43581e9ae3c126a5efc940d23.css HTTP/1.1" 304 0
+WARNING 2022-06-25 14:50:03,020 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-25 14:50:03,021 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-25 14:50:03,026 basehttp 187 "GET /static/js/app.2e02f34006205534ccb7.js HTTP/1.1" 304 0
+INFO 2022-06-25 14:50:03,026 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 304 0
+INFO 2022-06-25 14:52:27,717 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-25 14:52:29,892 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:53:28,772 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-25 14:53:29,440 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:53:53,597 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-25 14:53:54,101 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:55:30,560 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-25 14:55:31,327 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-25 14:56:37,037 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-25 14:56:37,724 autoreload 677 Watching for file changes with StatReloader

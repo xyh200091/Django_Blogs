@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-@fj)05!lp8*jke7=-k5xsuqn$+)*$pbw8uagk(j+e6di)pu)mk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.4.118','www.xyh2000.top','47.96.20.69','127.0.0.1']
+ALLOWED_HOSTS = ['192.168.4.118', 'www.xyh2000.top', '47.96.20.69', '127.0.0.1']
 
 # Application definition
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Page',
     'Essay',
+    'User',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'User.middleware.BoundId',  # 访问绑定Id编号
 ]
 
 ROOT_URLCONF = 'django_blogs.urls'
@@ -123,7 +125,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
-    os.path.join(BASE_DIR,'assets')
+    os.path.join(BASE_DIR, 'assets')
 ]
 
 # Default primary key field type
@@ -190,6 +192,14 @@ CACHES = {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
+    # 创建用户状态库
+    'user':{
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
 }
 # 配置session库
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
