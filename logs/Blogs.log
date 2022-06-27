@@ -5944,3 +5944,247 @@ INFO 2022-06-25 14:55:30,560 autoreload 266 D:\Itmes\Django\django_blogs\django_
 INFO 2022-06-25 14:55:31,327 autoreload 677 Watching for file changes with StatReloader
 INFO 2022-06-25 14:56:37,037 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
 INFO 2022-06-25 14:56:37,724 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 09:56:12,355 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 09:56:16,587 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 09:56:17,087 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+WARNING 2022-06-27 09:56:17,104 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 09:56:17,129 basehttp 187 "GET /static/css/app.093b25b43581e9ae3c126a5efc940d23.css HTTP/1.1" 304 0
+INFO 2022-06-27 09:56:17,211 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 304 0
+INFO 2022-06-27 09:56:17,328 basehttp 187 "GET /static/js/app.2e02f34006205534ccb7.js HTTP/1.1" 304 0
+INFO 2022-06-27 09:56:17,651 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-super-lower&tomo-high-hat.json HTTP/1.1" 304 0
+WARNING 2022-06-27 09:56:17,762 log 241 Not Found: /favicon.ico
+WARNING 2022-06-27 09:56:17,781 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+INFO 2022-06-27 09:56:47,932 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 09:56:48,881 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 09:56:51,190 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 09:56:51,256 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 09:56:56,866 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 09:56:57,373 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 09:57:01,924 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 09:57:02,721 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 09:57:03,141 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 09:57:03,176 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 09:57:24,836 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 09:57:25,603 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:29:42,807 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:29:45,828 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 13:29:46,041 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+WARNING 2022-06-27 13:29:46,431 log 241 Not Found: /favicon.ico
+WARNING 2022-06-27 13:29:46,437 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3214
+INFO 2022-06-27 13:33:49,378 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:33:49,891 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:33:55,512 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:33:56,027 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:34:00,518 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:34:01,180 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:34:06,727 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:34:07,242 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:34:51,007 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:34:51,477 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:35:27,780 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:35:28,311 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:37:41,231 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:37:41,754 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:37:57,553 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:37:58,026 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:38:09,876 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:38:10,394 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:38:21,061 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:38:21,725 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:54:48,220 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:54:48,773 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-27 13:54:50,144 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 21, in process_response
+    user_bank.setex(user_uuid,ex=60*60)
+TypeError: BasicKeyCommands.setex() got an unexpected keyword argument 'ex'
+ERROR 2022-06-27 13:54:50,149 basehttp 187 "GET / HTTP/1.1" 500 63527
+INFO 2022-06-27 13:54:56,596 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:54:57,661 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 13:54:58,020 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 13:54:58,050 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 13:54:59,399 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 13:54:59,428 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 13:55:03,290 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 13:55:04,227 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:01:11,699 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:01:12,269 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:08:15,143 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:08:15,738 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:08:35,684 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:08:36,186 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:09:10,592 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:09:11,121 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-27 14:09:12,333 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 21, in process_response
+    user_uuid = MD5(uuid.uuid1())
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\Encode.py", line 7, in MD5
+    hash_md5.update(x.encode('utf-8'))
+AttributeError: 'UUID' object has no attribute 'encode'
+ERROR 2022-06-27 14:09:12,339 basehttp 187 "GET / HTTP/1.1" 500 66203
+INFO 2022-06-27 14:10:08,451 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:10:09,225 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-27 14:10:11,969 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 23, in process_response
+    user_bank.set('user_'+user_uuid,user_uuid,timeout=30*60)
+TypeError: BasicKeyCommands.set() got an unexpected keyword argument 'timeout'
+ERROR 2022-06-27 14:10:11,970 basehttp 187 "GET / HTTP/1.1" 500 63778
+INFO 2022-06-27 14:10:20,268 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:10:20,813 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-27 14:10:23,243 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 609, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Python\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 610, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 675, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 663, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 23, in process_response
+    user_bank.set('user_'+user_uuid,user_uuid,30*60)
+  File "D:\Python\lib\site-packages\redis\commands\core.py", line 2214, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1232, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1383, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2022-06-27 14:10:23,269 basehttp 187 "GET / HTTP/1.1" 500 103830
+INFO 2022-06-27 14:11:25,423 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:11:25,449 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:12:16,365 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:12:17,166 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:12:21,953 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:12:22,623 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-27 14:12:22,881 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 23, in process_response
+    user_bank.set('user_'+user_uuid,user_uuid.decode(),30*60)
+AttributeError: 'str' object has no attribute 'decode'
+ERROR 2022-06-27 14:12:22,883 basehttp 187 "GET / HTTP/1.1" 500 63734
+INFO 2022-06-27 14:12:34,498 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:12:35,039 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:12:35,183 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:12:35,243 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:13:08,979 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\Encode.py changed, reloading.
+INFO 2022-06-27 14:13:09,555 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:13:09,864 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:13:09,911 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:13:35,840 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\Encode.py changed, reloading.
+INFO 2022-06-27 14:13:36,351 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:13:55,249 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:13:55,883 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:13:56,157 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:13:56,193 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:14:29,498 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:14:30,276 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-27 14:14:30,766 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 25, in process_response
+    print(user_uuid.get('user_'+user_uuid))
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2022-06-27 14:14:30,768 basehttp 187 "GET / HTTP/1.1" 500 63563
+ERROR 2022-06-27 14:14:49,269 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 25, in process_response
+    print(user_bank.get('user_'+user_uuid))
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2022-06-27 14:14:49,271 basehttp 187 "GET / HTTP/1.1" 500 63563
+INFO 2022-06-27 14:14:49,340 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:14:49,844 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:14:52,582 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:14:52,610 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:15:01,832 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:15:02,519 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:15:02,733 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:15:02,778 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:16:37,774 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:16:38,403 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:17:08,882 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:17:09,414 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:17:32,419 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:17:32,958 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:17:38,502 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:17:38,976 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:17:44,440 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:17:44,947 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:17:48,370 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:17:48,878 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:20:53,584 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:20:54,101 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:21:13,639 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 14:21:13,680 basehttp 187 "GET /static/css/app.093b25b43581e9ae3c126a5efc940d23.css HTTP/1.1" 304 0
+INFO 2022-06-27 14:21:13,690 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-27 14:21:13,690 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js HTTP/1.1" 304 0
+INFO 2022-06-27 14:21:13,690 basehttp 187 "GET /static/js/app.2e02f34006205534ccb7.js HTTP/1.1" 304 0
+WARNING 2022-06-27 14:21:13,696 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:23:33,787 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:23:34,708 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:23:40,170 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:23:40,216 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:23:43,082 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:23:43,116 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:23:51,756 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:23:51,797 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:24:05,570 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:24:06,303 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:24:10,755 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:24:10,799 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:24:14,616 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:24:14,645 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:24:43,519 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:24:44,114 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:24:44,387 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:24:44,443 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:25:00,136 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:25:00,869 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:25:07,129 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:25:07,167 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:25:20,362 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:25:20,394 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:25:44,861 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:25:45,883 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:25:55,272 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:25:55,315 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:26:05,832 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:26:05,875 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
