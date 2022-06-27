@@ -6188,3 +6188,1125 @@ INFO 2022-06-27 14:25:55,272 basehttp 187 "GET / HTTP/1.1" 200 555
 WARNING 2022-06-27 14:25:55,315 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
 INFO 2022-06-27 14:26:05,832 basehttp 187 "GET / HTTP/1.1" 200 555
 WARNING 2022-06-27 14:26:05,875 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:54:11,235 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:54:11,739 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 14:54:13,084 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:54:13,168 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:54:37,113 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 14:54:37,175 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 14:58:48,136 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py changed, reloading.
+INFO 2022-06-27 14:58:48,786 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 15:34:46,076 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-27 15:34:46,838 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 15:38:06,741 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 15:38:06,792 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 15:38:06,822 basehttp 187 "GET /static/css/app.9ed67eea04e519f2e12d3e4e17ef0206.css HTTP/1.1" 200 14881
+INFO 2022-06-27 15:38:06,825 basehttp 187 "GET /static/js/app.3d8536f2e93c07c88a42.js HTTP/1.1" 200 176096
+INFO 2022-06-27 15:38:09,305 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 15:38:09,445 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 15:39:05,010 basehttp 187 "GET /static/js/app.3d8536f2e93c07c88a42.js HTTP/1.1" 304 0
+INFO 2022-06-27 15:40:23,668 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 15:40:23,714 basehttp 187 "GET /static/css/app.9ed67eea04e519f2e12d3e4e17ef0206.css HTTP/1.1" 304 0
+INFO 2022-06-27 15:40:23,715 basehttp 187 "GET /static/js/app.3d8536f2e93c07c88a42.js HTTP/1.1" 304 0
+WARNING 2022-06-27 15:40:23,717 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 15:40:24,808 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 15:40:24,858 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:10:59,765 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 16:10:59,821 basehttp 187 "GET /static/css/app.9ed67eea04e519f2e12d3e4e17ef0206.css HTTP/1.1" 304 0
+INFO 2022-06-27 16:10:59,833 basehttp 187 "GET /static/js/app.3d8536f2e93c07c88a42.js HTTP/1.1" 304 0
+WARNING 2022-06-27 16:10:59,833 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:11:01,136 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 16:11:01,185 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:11:02,654 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 16:11:02,701 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+ERROR 2022-06-27 16:11:22,259 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-27 16:11:22,264 basehttp 187 "GET / HTTP/1.1" 500 86411
+INFO 2022-06-27 16:13:31,359 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 16:13:31,382 basehttp 187 "GET /static/css/app.498f85feca6aaa7ad69290c5e0201891.css HTTP/1.1" 200 14871
+WARNING 2022-06-27 16:13:31,389 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:13:31,396 basehttp 187 "GET /static/js/app.c618643148e254da92cf.js HTTP/1.1" 200 176094
+INFO 2022-06-27 16:13:33,524 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 16:13:33,562 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:13:34,625 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 16:13:34,666 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:13:36,642 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 16:13:36,680 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 16:51:54,796 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\urls.py changed, reloading.
+INFO 2022-06-27 16:51:55,545 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:00:14,176 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:00:15,027 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:00:51,284 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:00:51,767 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:04:26,849 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\Time.py changed, reloading.
+INFO 2022-06-27 17:04:28,345 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:05:28,718 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:05:29,505 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:06:30,944 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:06:31,606 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:06:35,146 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:06:35,659 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:06:52,656 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:06:53,175 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:08:21,413 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 17:08:21,471 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:08:21,515 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 200 14871
+INFO 2022-06-27 17:08:21,518 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 200 176114
+ERROR 2022-06-27 17:08:21,746 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 29, in get
+    code_bank.set('img_code_' + userNum, text, max_age=REDIS_USER_LOGIN_TIME)
+TypeError: BasicKeyCommands.set() got an unexpected keyword argument 'max_age'
+ERROR 2022-06-27 17:08:21,749 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 74225
+INFO 2022-06-27 17:08:26,002 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 17:08:26,151 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:08:26,163 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:08:26,169 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:08:26,187 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:08:33,024 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 17:08:33,087 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 17:08:33,087 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+WARNING 2022-06-27 17:08:33,088 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:08:33,182 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:08:33,197 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:08:33,206 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:08:33,444 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 17:08:33,500 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 29, in get
+    code_bank.set('img_code_' + userNum, text, max_age=REDIS_USER_LOGIN_TIME)
+TypeError: BasicKeyCommands.set() got an unexpected keyword argument 'max_age'
+ERROR 2022-06-27 17:08:33,514 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 74225
+INFO 2022-06-27 17:09:11,351 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:09:12,951 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:09:13,471 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 17:09:13,554 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 17:09:13,568 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+WARNING 2022-06-27 17:09:13,596 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:09:14,119 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:09:14,158 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-super-lower.png HTTP/1.1" 200 27822
+INFO 2022-06-27 17:09:14,178 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/newyear-upper.png HTTP/1.1" 200 44422
+INFO 2022-06-27 17:09:14,186 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:09:14,205 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:09:14,216 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:09:14,220 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-high-hat.png HTTP/1.1" 200 53842
+INFO 2022-06-27 17:09:14,267 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:09:43,812 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:17:05,889 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:17:06,399 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:17:10,390 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 17:17:10,483 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 17:17:10,581 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+WARNING 2022-06-27 17:17:10,586 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:17:10,862 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:17:10,906 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:17:11,087 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:17:11,098 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:17:11,115 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:17:19,398 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 17:17:19,489 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:17:19,597 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:17:19,605 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:17:19,611 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:17:19,878 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:17:19,881 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:18:01,247 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 17:18:01,361 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:18:01,518 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:18:03,056 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:18:04,204 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:18:04,206 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:18:04,225 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:18:09,509 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:18:10,709 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:18:42,145 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:18:43,275 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:18:44,253 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 17:18:44,318 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+WARNING 2022-06-27 17:18:44,327 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:18:44,354 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 17:18:44,670 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:18:44,712 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:18:44,734 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:18:44,766 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:18:44,796 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:19:15,489 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:19:16,790 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:20:41,231 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:20:42,130 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:20:44,561 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:20:45,047 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:20:51,496 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:20:52,043 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:21:01,562 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:21:02,430 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:21:03,568 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 17:21:03,604 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 17:21:03,700 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+WARNING 2022-06-27 17:21:03,706 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:21:03,840 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:21:03,864 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:21:03,869 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:21:04,038 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 17:21:04,136 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 30, in get
+    return http.HttpResponse(draw, content_type='image/jpg',Content_Disposition='attachment; filename="piece.jpg"')
+  File "D:\Python\lib\site-packages\django\http\response.py", line 353, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() got an unexpected keyword argument 'Content_Disposition'
+ERROR 2022-06-27 17:21:04,146 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 78468
+INFO 2022-06-27 17:21:36,468 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:21:37,309 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:21:39,064 basehttp 187 "GET / HTTP/1.1" 200 555
+WARNING 2022-06-27 17:21:39,197 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:21:39,538 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:21:39,586 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:21:39,594 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:21:39,600 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:21:39,660 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:22:37,064 basehttp 187 "GET / HTTP/1.1" 200 555
+INFO 2022-06-27 17:22:37,120 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 17:22:37,121 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+WARNING 2022-06-27 17:22:37,124 basehttp 187 "GET /static/js/sakura.js HTTP/1.1" 404 1795
+INFO 2022-06-27 17:22:37,209 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:22:37,217 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:22:37,231 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:22:37,387 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:22:37,408 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:26:29,322 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:26:30,076 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:26:36,784 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:26:37,263 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:26:45,987 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:26:46,558 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:26:49,791 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 17:26:49,936 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 200 14871
+INFO 2022-06-27 17:26:49,937 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 200 176114
+INFO 2022-06-27 17:26:49,996 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:26:50,021 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:26:50,029 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:26:50,234 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:26:50,235 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:27:10,130 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:27:32,351 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 17:27:33,852 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 17:27:35,285 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 17:27:35,333 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 17:27:35,335 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 17:27:35,559 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:27:35,684 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:27:35,686 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:27:35,696 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:27:35,702 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:27:40,569 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_00/closet-default-v2.png HTTP/1.1" 200 18864
+ERROR 2022-06-27 17:27:40,625 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 26, in get
+    if user_bank.get('user_' + userNum):
+TypeError: can only concatenate str (not "NoneType") to str
+ERROR 2022-06-27 17:27:40,631 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 73513
+INFO 2022-06-27 17:27:43,348 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 17:27:43,464 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:27:43,477 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:27:43,483 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:27:43,662 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:27:43,776 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:28:00,556 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:56:47,591 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 17:56:47,636 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 17:56:47,708 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 17:56:47,733 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:56:47,743 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:56:47,761 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 17:56:47,786 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:56:48,049 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:57:27,626 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 17:57:27,745 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 17:57:27,772 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 17:57:27,779 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 17:57:27,975 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 17:57:27,975 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:04:25,380 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:04:25,878 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:04:35,742 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:04:36,232 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:04:38,899 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:04:39,456 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:04:59,627 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:05:00,191 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:05:03,889 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:05:03,950 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:05:03,954 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+ERROR 2022-06-27 18:05:04,306 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in code
+    img = Image.fromarray(draw, 'RGB')
+  File "D:\Python\lib\site-packages\PIL\Image.py", line 2918, in fromarray
+    arr = obj.__array_interface__
+AttributeError: 'ImageDraw' object has no attribute '__array_interface__'
+INFO 2022-06-27 18:05:04,333 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:05:04,352 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+ERROR 2022-06-27 18:05:04,358 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 81999
+INFO 2022-06-27 18:05:04,397 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:05:04,404 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:07:33,875 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:07:34,599 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:07:35,814 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:07:35,956 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:07:36,013 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:07:36,018 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:07:36,181 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:07:36,332 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in code
+    img = Image.fromarray(draw, 'RGB')
+  File "D:\Python\lib\site-packages\PIL\Image.py", line 2918, in fromarray
+    arr = obj.__array_interface__
+AttributeError: 'ImageDraw' object has no attribute '__array_interface__'
+ERROR 2022-06-27 18:07:36,380 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 82129
+INFO 2022-06-27 18:07:52,954 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:07:54,772 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:07:55,247 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:07:55,402 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:07:55,415 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:07:55,448 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:07:55,662 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+ERROR 2022-06-27 18:07:55,744 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 45, in code
+    img = Image.fromarray(draw, 'RGB')
+  File "D:\Python\lib\site-packages\PIL\Image.py", line 2918, in fromarray
+    arr = obj.__array_interface__
+AttributeError: 'ImageDraw' object has no attribute '__array_interface__'
+ERROR 2022-06-27 18:07:55,750 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 82014
+INFO 2022-06-27 18:08:13,194 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:08:14,429 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:08:14,749 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:08:15,064 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:08:15,100 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:08:15,150 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:08:15,353 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:08:15,408 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in code
+    print(draw.text())
+TypeError: ImageDraw.text() missing 2 required positional arguments: 'xy' and 'text'
+ERROR 2022-06-27 18:08:15,412 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 78537
+INFO 2022-06-27 18:08:26,866 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:08:27,983 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:10:56,382 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:10:56,874 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:00,271 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:00,784 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:04,243 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:05,003 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:06,514 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:07,002 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:12,523 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:13,217 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:15,584 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:16,193 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:18,611 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:19,215 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:22,700 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:23,343 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:29,227 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:11:29,259 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:11:29,259 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 18:11:29,434 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:11:29,449 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:11:29,459 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:11:29,620 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:11:29,774 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 45, in code
+    img = base64.b64encode(draw.tobytes())
+AttributeError: 'ImageDraw' object has no attribute 'tobytes'
+ERROR 2022-06-27 18:11:29,779 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 78331
+INFO 2022-06-27 18:11:40,161 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:11:41,843 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:11:42,364 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:11:42,516 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:11:42,526 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:11:42,559 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:11:42,687 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:11:42,875 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 45, in code
+    img = base64.b64encode(draw)
+  File "D:\Python\lib\base64.py", line 58, in b64encode
+    encoded = binascii.b2a_base64(s, newline=False)
+TypeError: a bytes-like object is required, not 'ImageDraw'
+ERROR 2022-06-27 18:11:42,892 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 81992
+INFO 2022-06-27 18:12:18,216 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:12:20,222 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:12:20,880 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:12:21,314 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:12:21,334 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:12:21,345 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:12:21,349 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:12:21,639 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 18:12:51,874 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:12:52,748 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:12:53,103 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:12:53,403 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 54
+INFO 2022-06-27 18:12:53,447 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:12:53,489 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:12:53,504 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:12:53,516 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:16:20,556 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:16:21,296 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:16:25,406 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:16:25,444 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:16:25,444 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 18:16:25,608 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:16:25,660 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:16:25,663 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:16:25,788 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:16:25,873 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 61
+INFO 2022-06-27 18:16:59,775 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:17:00,454 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:17:06,113 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:17:07,384 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:17:07,757 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:17:08,169 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:17:08,184 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:17:08,188 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:17:08,211 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+ERROR 2022-06-27 18:17:08,512 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\PIL\Image.py", line 2278, in save
+    format = EXTENSION[ext]
+KeyError: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    text, img = code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 45, in code
+    image.save('./')
+  File "D:\Python\lib\site-packages\PIL\Image.py", line 2280, in save
+    raise ValueError(f"unknown file extension: {ext}") from e
+ValueError: unknown file extension: 
+ERROR 2022-06-27 18:17:08,526 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 87471
+INFO 2022-06-27 18:19:58,318 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:19:59,138 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:20:37,665 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:20:38,402 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:20:51,210 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:20:51,773 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:21:36,325 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:21:36,554 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:21:36,561 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:21:36,633 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:21:36,645 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:21:36,732 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = create_validate_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 83, in create_strs
+    font = ImageFont.truetype(font_type, font_size)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:21:36,749 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 107577
+INFO 2022-06-27 18:25:10,265 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:25:10,795 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:25:13,002 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:25:13,057 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:25:13,066 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+ERROR 2022-06-27 18:25:13,331 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = create_validate_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 83, in create_strs
+    font = ImageFont.truetype(font_type, font_size)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:25:13,358 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 107667
+INFO 2022-06-27 18:25:13,386 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:25:13,420 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:25:13,427 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:25:13,438 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:25:58,660 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:26:00,867 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:26:01,252 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:26:01,918 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = create_validate_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 83, in create_strs
+    font = ImageFont.truetype('../static/font/Monaco.ttf', font_size)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:26:01,945 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 107529
+INFO 2022-06-27 18:26:02,052 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:26:02,066 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:26:02,100 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:26:02,216 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:32:22,957 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:32:23,075 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:32:23,080 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 18:32:23,238 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:32:23,253 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:32:23,273 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+ERROR 2022-06-27 18:32:23,446 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = create_validate_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 83, in create_strs
+    font = ImageFont.truetype('../static/font/Monaco.ttf', font_size)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:32:23,453 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 107529
+INFO 2022-06-27 18:32:23,463 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:33:04,763 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:33:05,709 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:33:06,050 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:33:06,413 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:33:06,440 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:33:06,524 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:33:06,530 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+ERROR 2022-06-27 18:33:06,601 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = create_validate_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 83, in create_strs
+    font = ImageFont.truetype('./Monaco.ttf', font_size)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:33:06,618 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 107451
+INFO 2022-06-27 18:33:48,985 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:33:49,456 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:33:54,658 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:33:55,094 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = create_validate_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 93, in create_validate_code
+    strs = create_strs()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 83, in create_strs
+    font = ImageFont.truetype('Monaco.ttf', font_size)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+INFO 2022-06-27 18:33:55,115 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+ERROR 2022-06-27 18:33:55,145 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 107439
+INFO 2022-06-27 18:33:55,249 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:33:55,261 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:33:55,303 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:35:01,129 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:35:01,854 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:35:23,938 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:35:24,487 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:35:27,410 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:35:27,670 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+ERROR 2022-06-27 18:35:27,741 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = image_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in image_code
+    font = ImageFont.truetype('Monaco.ttf', 30)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+INFO 2022-06-27 18:35:27,752 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:35:27,757 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+ERROR 2022-06-27 18:35:27,765 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 100365
+INFO 2022-06-27 18:35:27,788 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:39:38,522 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:39:38,580 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:39:38,580 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 18:39:38,731 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:39:38,751 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:39:38,752 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:39:38,761 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+ERROR 2022-06-27 18:39:38,931 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = image_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in image_code
+    font = ImageFont.truetype('Monaco.ttf', 30)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:39:38,941 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 100368
+INFO 2022-06-27 18:41:03,192 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:41:04,161 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:41:04,469 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:41:04,739 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:41:04,772 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:41:04,811 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+ERROR 2022-06-27 18:41:04,919 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = image_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in image_code
+    font = ImageFont.truetype('./Monaco.ttf', 30)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+INFO 2022-06-27 18:41:04,922 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:41:04,928 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 100379
+INFO 2022-06-27 18:41:36,978 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:41:37,852 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:41:38,190 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:41:38,505 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = image_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in image_code
+    font = ImageFont.truetype('Monaco.ttf', 30)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:41:38,531 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 100366
+INFO 2022-06-27 18:41:38,566 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:41:38,603 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:41:38,603 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:41:38,612 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:42:52,263 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:42:52,828 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:43:07,724 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:43:08,305 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:43:41,982 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:43:42,538 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:43:46,713 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:43:46,929 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 61
+INFO 2022-06-27 18:43:47,081 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:43:47,085 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:43:47,102 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:43:47,132 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:43:55,306 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:43:55,429 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:43:55,436 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:43:55,440 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:43:55,543 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 61
+INFO 2022-06-27 18:43:55,642 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:44:09,552 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:44:10,434 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:44:10,783 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:44:11,097 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 27, in get
+    img,text = image_code()
+  File "D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py", line 44, in image_code
+    font = ImageFont.truetype('lib\Monaco.ttf', 30)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 878, in truetype
+    return freetype(font)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 875, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "D:\Python\lib\site-packages\PIL\ImageFont.py", line 226, in __init__
+    self.font = core.getfont(
+OSError: cannot open resource
+ERROR 2022-06-27 18:44:11,120 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 100392
+INFO 2022-06-27 18:44:11,146 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:44:11,149 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:44:11,160 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:44:11,182 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:44:21,845 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 18:44:22,801 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:44:26,244 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:44:26,427 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:44:26,427 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:44:26,442 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 61
+INFO 2022-06-27 18:44:26,481 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:44:26,491 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:45:00,616 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:45:01,129 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:45:04,519 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:45:05,525 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:46:12,167 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:46:13,041 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:46:13,609 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:46:13,757 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 61
+INFO 2022-06-27 18:46:13,886 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:46:13,886 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:46:13,891 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:46:13,896 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:46:27,073 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:46:27,939 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:46:28,296 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:46:28,473 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:46:28,494 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:46:28,573 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:46:28,602 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 61
+INFO 2022-06-27 18:46:28,645 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:46:42,122 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:46:45,193 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:49:03,743 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:49:04,577 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:49:27,205 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:49:28,500 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:49:29,586 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:49:29,633 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:49:29,634 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+INFO 2022-06-27 18:49:30,024 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:49:30,035 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:49:30,046 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:49:30,163 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 23600
+INFO 2022-06-27 18:49:30,165 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:49:40,496 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:49:41,663 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:49:42,137 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:49:42,355 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:49:42,376 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:49:42,392 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:49:42,414 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:49:42,568 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 23600
+INFO 2022-06-27 18:50:58,300 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:50:58,942 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:52:18,337 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:52:18,899 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:52:21,482 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:52:22,159 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:52:27,638 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:52:28,283 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:52:29,569 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:52:29,746 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:52:29,779 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:52:29,811 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:52:29,817 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+ERROR 2022-06-27 18:52:29,941 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 35, in get
+    response = http.HttpResponse(BytesIO().write(img), content_type='image/jpeg')
+TypeError: a bytes-like object is required, not 'Image'
+ERROR 2022-06-27 18:52:29,950 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 74273
+INFO 2022-06-27 18:54:22,276 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:54:23,723 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:54:24,139 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:54:24,389 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1919
+INFO 2022-06-27 18:54:24,489 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js.map HTTP/1.1" 200 500393
+INFO 2022-06-27 18:54:24,532 basehttp 187 "GET /static/js/vendor.61fc04aab7117f5acb75.js.map HTTP/1.1" 200 957905
+INFO 2022-06-27 18:54:24,540 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-27 18:54:24,549 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css.map HTTP/1.1" 200 26993
+INFO 2022-06-27 18:55:21,717 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:55:22,228 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:55:26,653 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:55:26,851 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 38, in get
+    os.remove(userNum+'.jpg')
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'e112842c4d967daaa78c2278bd4e1fde.jpg'
+ERROR 2022-06-27 18:55:26,860 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 74969
+INFO 2022-06-27 18:56:32,976 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:56:33,178 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 38, in get
+    os.remove(userNum+'.jpg')
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'e112842c4d967daaa78c2278bd4e1fde.jpg'
+ERROR 2022-06-27 18:56:33,184 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 74969
+INFO 2022-06-27 18:56:49,522 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:56:50,030 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:57:29,240 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:57:29,789 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:57:31,334 basehttp 187 "GET / HTTP/1.1" 200 512
+ERROR 2022-06-27 18:57:31,729 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 40, in get
+    os.remove(userNum+'.jpg')
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'e112842c4d967daaa78c2278bd4e1fde.jpg'
+ERROR 2022-06-27 18:57:31,734 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 74940
+INFO 2022-06-27 18:59:05,437 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:59:05,941 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:59:16,803 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:59:17,416 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:59:37,888 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:59:38,575 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:59:45,440 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 18:59:47,001 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 18:59:47,536 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 18:59:47,576 basehttp 187 "GET /static/css/app.59718b71aff542610cda26fa60f1014e.css HTTP/1.1" 304 0
+INFO 2022-06-27 18:59:47,582 basehttp 187 "GET /static/js/app.c70c9f1d1cd0d67198a6.js HTTP/1.1" 304 0
+ERROR 2022-06-27 18:59:47,838 log 241 Internal Server Error: /get/login/code/img
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 40, in get
+    shutil.rmtree(userNum+'.jpg')
+  File "D:\Python\lib\shutil.py", line 747, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "D:\Python\lib\shutil.py", line 598, in _rmtree_unsafe
+    onerror(os.scandir, path, sys.exc_info())
+  File "D:\Python\lib\shutil.py", line 595, in _rmtree_unsafe
+    with os.scandir(path) as scandir_it:
+NotADirectoryError: [WinError 267] 目录名称无效。: 'e112842c4d967daaa78c2278bd4e1fde.jpg'
+ERROR 2022-06-27 18:59:47,842 basehttp 187 "GET /get/login/code/img HTTP/1.1" 500 85906
+INFO 2022-06-27 19:00:17,055 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 19:00:17,576 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 19:00:42,379 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 19:00:43,439 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 19:00:43,972 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:00:44,288 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2416
+INFO 2022-06-27 19:01:49,912 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 19:01:50,960 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 19:02:06,150 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 19:02:07,433 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 19:02:08,488 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:08,604 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1944
+INFO 2022-06-27 19:02:21,848 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-27 19:02:23,584 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 19:02:24,048 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:24,184 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1887
+INFO 2022-06-27 19:02:27,426 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:27,769 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1992
+INFO 2022-06-27 19:02:36,159 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:36,331 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1982
+INFO 2022-06-27 19:02:36,911 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:36,992 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2033
+INFO 2022-06-27 19:02:37,614 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:37,708 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1943
+INFO 2022-06-27 19:02:38,174 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:02:38,258 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1772
+INFO 2022-06-27 19:03:08,913 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\ImgCode.py changed, reloading.
+INFO 2022-06-27 19:03:10,566 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-27 19:03:11,083 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:11,225 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1689
+INFO 2022-06-27 19:03:13,325 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:13,407 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2381
+INFO 2022-06-27 19:03:13,914 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:13,993 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2420
+INFO 2022-06-27 19:03:14,379 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:14,456 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1921
+INFO 2022-06-27 19:03:14,736 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:14,809 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2051
+INFO 2022-06-27 19:03:15,182 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:15,257 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2192
+INFO 2022-06-27 19:03:15,678 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:15,756 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2035
+INFO 2022-06-27 19:03:16,051 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:16,146 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2268
+INFO 2022-06-27 19:03:16,298 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:16,378 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2304
+INFO 2022-06-27 19:03:16,539 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:16,670 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1756
+INFO 2022-06-27 19:03:16,708 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:16,795 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1982
+INFO 2022-06-27 19:03:17,054 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:17,141 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1954
+INFO 2022-06-27 19:03:17,357 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:17,440 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1931
+INFO 2022-06-27 19:03:17,596 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:17,689 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1821
+INFO 2022-06-27 19:03:17,852 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:17,957 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1918
+INFO 2022-06-27 19:03:18,129 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:18,208 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1533
+INFO 2022-06-27 19:03:18,306 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:18,385 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1903
+INFO 2022-06-27 19:03:18,550 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:18,641 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1853
+INFO 2022-06-27 19:03:18,799 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:18,892 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2069
+INFO 2022-06-27 19:03:19,012 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:19,107 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1959
+INFO 2022-06-27 19:03:19,263 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:19,355 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1838
+INFO 2022-06-27 19:03:19,495 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:19,629 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1984
+INFO 2022-06-27 19:03:19,761 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:19,883 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2047
+INFO 2022-06-27 19:03:20,025 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:20,157 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 1756
+INFO 2022-06-27 19:03:20,613 basehttp 187 "GET / HTTP/1.1" 200 512
+INFO 2022-06-27 19:03:20,701 basehttp 187 "GET /get/login/code/img HTTP/1.1" 200 2442
