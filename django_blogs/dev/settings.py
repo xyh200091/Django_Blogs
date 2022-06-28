@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'Page',
     'Essay',
     'User',
+    'Verify',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,75 @@
+/* 登录板 */
+.login {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+
+}
+
+.login_beg {
+    padding: 2%;
+    background-color: rgba(104, 104, 104, 0.411);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 0 0px 5px 5px rgb(255, 255, 255);
+}
+
+.login_title {
+    text-align: center;
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 800;
+    border-bottom: 1px #fff solid;
+    padding-bottom: 0.5vw;
+}
+
+
+.login_pwd {
+    width: 20vw;
+    height: 2vw;
+    margin-top: 0.5vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.code_box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5vw;
+}
+
+.login_code {
+    width: 13vw;
+    height: 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.code_img {
+    width: 6.5vw;
+    height: 2vw;
+    margin-left: 0.5vw;
+}
+
+.error_hint {
+    font-size: 0.5vw;
+    text-align: center;
+    margin-top: 0.5vw;
+    color: red;
+}
+
+.login_btn {
+    width: 10vw;
+    /* height: 2vw; */
+    font-size: 1.5vw;
+    margin: 0 auto;
+    margin-top: 0.5vw;
+}
