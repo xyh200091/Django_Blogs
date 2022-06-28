@@ -84,7 +84,8 @@ DATABASES = {
                     POET='3306',
                     USER='xyh2521929494',
                     PASSWORD='11111111',
-                    NAME='blogs')
+                    NAME='blogs'
+                    )
 }
 
 # Password validation

@@ -5,10 +5,13 @@ from django import http
 
 import os
 import time
+import re
+import json
+import math
 
 from django_blogs.lib.ImgCode import image_code
-
 from django_blogs.data.Time import *
+from django_blogs.data.EssayCode import *
 
 
 # Create your views here.
@@ -31,7 +34,7 @@ class GetLoginCodeImgView(View):
         """
         t = int(request.GET.get('time'))
         T = time.time()
-        if T - t > 60:
+        if math.fabs(T - t) > 60:
             with open('lose.jpeg', 'rb') as f:
                 image = f.read()
         else:
@@ -51,7 +54,4 @@ class GetLoginCodeImgView(View):
         return response
 
 
-# 登录后端
-class LoginAdminView(View):
-    def post(self, request):
-        pass
+

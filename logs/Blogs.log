@@ -7761,3 +7761,1126 @@ Traceback (most recent call last):
   File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
     raise ValueError(
 ValueError: The view Verify.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 13:50:15,874 basehttp 187 "POST /admin/login HTTP/1.1" 500 65687
+INFO 2022-06-28 14:41:47,965 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 14:42:19,766 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 14:42:19,846 basehttp 187 "GET /static/css/app.73a32bfa2b445ab002f04c7f59323052.css HTTP/1.1" 304 0
+INFO 2022-06-28 14:42:19,854 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 14:42:19,856 basehttp 187 "GET /static/js/app.638c2a7e0cf745b2de47.js HTTP/1.1" 304 0
+INFO 2022-06-28 14:42:19,856 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+WARNING 2022-06-28 14:42:19,861 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 14:42:19,863 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3437
+WARNING 2022-06-28 14:42:20,229 log 241 Not Found: /favicon.ico
+WARNING 2022-06-28 14:42:20,231 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3431
+INFO 2022-06-28 14:43:03,996 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 14:43:04,048 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 14:43:04,049 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 14:43:04,107 basehttp 187 "GET /static/css/app.73a32bfa2b445ab002f04c7f59323052.css HTTP/1.1" 200 14893
+INFO 2022-06-28 14:43:04,116 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-28 14:43:04,133 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 200 200798
+INFO 2022-06-28 14:43:04,155 basehttp 187 "GET /static/js/app.638c2a7e0cf745b2de47.js HTTP/1.1" 200 177998
+INFO 2022-06-28 14:43:04,230 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-super-lower&tomo-high-hat.json HTTP/1.1" 200 1271
+INFO 2022-06-28 14:43:04,281 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/model.moc HTTP/1.1" 304 0
+WARNING 2022-06-28 14:43:04,307 log 241 Not Found: /favicon.ico
+WARNING 2022-06-28 14:43:04,309 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3435
+INFO 2022-06-28 14:43:04,326 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_00/closet-default-v2.png HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:04,328 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-super-lower.png HTTP/1.1" 200 27822
+INFO 2022-06-28 14:43:04,328 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/newyear-upper.png HTTP/1.1" 200 44422
+INFO 2022-06-28 14:43:04,329 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-high-hat.png HTTP/1.1" 200 53842
+INFO 2022-06-28 14:43:04,430 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:04,430 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-03.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:04,430 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/motions/idle-02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:14,450 basehttp 187 "GET /get/login/code/img?time=1656398594 HTTP/1.1" 200 2373
+INFO 2022-06-28 14:43:16,248 basehttp 187 "GET /get/login/code/img?time=1656398596 HTTP/1.1" 200 2130
+INFO 2022-06-28 14:43:18,016 basehttp 187 "GET /get/login/code/img?time=1656398598 HTTP/1.1" 200 1991
+INFO 2022-06-28 14:43:24,816 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/textures.json HTTP/1.1" 200 99701
+INFO 2022-06-28 14:43:24,842 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&newyear-upper&cba-normal-lower&vdays-hat.json HTTP/1.1" 200 1268
+INFO 2022-06-28 14:43:24,882 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/cba-normal-lower.png HTTP/1.1" 200 19202
+INFO 2022-06-28 14:43:24,882 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/vdays-hat.png HTTP/1.1" 200 64886
+INFO 2022-06-28 14:43:25,710 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&vdays-upper&xmas-lower&tomo-high-hat.json HTTP/1.1" 200 1264
+INFO 2022-06-28 14:43:25,748 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/vdays-upper.png HTTP/1.1" 200 19648
+INFO 2022-06-28 14:43:25,749 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/xmas-lower.png HTTP/1.1" 200 14085
+INFO 2022-06-28 14:43:28,196 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&tomo-high-upper&school2017-lower&spring-2018-hat.json HTTP/1.1" 200 1276
+INFO 2022-06-28 14:43:28,228 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/tomo-high-upper.png HTTP/1.1" 200 24352
+INFO 2022-06-28 14:43:28,231 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/school2017-lower.png HTTP/1.1" 200 75627
+INFO 2022-06-28 14:43:28,235 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/spring-2018-hat.png HTTP/1.1" 200 261535
+INFO 2022-06-28 14:43:29,397 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&summer2017-low-upper&school2017-lower&tomo-low-hat.json HTTP/1.1" 200 1278
+INFO 2022-06-28 14:43:29,433 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/summer2017-low-upper.png HTTP/1.1" 200 23696
+INFO 2022-06-28 14:43:29,434 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/tomo-low-hat.png HTTP/1.1" 200 53637
+INFO 2022-06-28 14:43:30,450 basehttp 187 "GET /static/Live2dApi/indexes/models.json HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,485 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/textures.json HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,511 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/closet-default-v2&newyear-upper&school2017-lower&valley2017-hat.json HTTP/1.1" 200 1271
+INFO 2022-06-28 14:43:30,531 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/model.moc HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,579 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_02/school2017-lower.png HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,581 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_00/closet-default-v2.png HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,581 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_01/newyear-upper.png HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,581 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_03/valley2017-hat.png HTTP/1.1" 200 68426
+INFO 2022-06-28 14:43:30,715 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/motions/idle-02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,715 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/motions/idle-01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:30,716 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/motions/idle-03.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,330 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/textures.json HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,347 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/animal-costume-racoon.json HTTP/1.1" 200 1862
+INFO 2022-06-28 14:43:31,367 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/model.moc HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,397 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/textures/textures_00/animal-costume-racoon.png HTTP/1.1" 200 445903
+INFO 2022-06-28 14:43:31,446 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath1.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,459 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath2.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,462 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath5.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,463 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath8.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,465 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Sleeping.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,465 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath7.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:43:31,502 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/motions/Breath3.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 14:48:04,131 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 14:48:06,917 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 14:48:13,932 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 14:48:14,001 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 14:48:14,005 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 14:48:20,077 basehttp 187 "GET /get/login/code/img?time=1656398900 HTTP/1.1" 200 2435
+INFO 2022-06-28 14:49:43,160 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 14:49:51,896 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 14:50:22,556 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 14:50:28,201 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 14:51:23,971 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 14:51:24,553 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 14:52:01,221 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 14:52:02,854 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:00:23,515 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:00:24,714 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:01:04,810 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:01:05,440 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:01:12,822 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 15:01:12,926 basehttp 187 "GET /static/css/app.73a32bfa2b445ab002f04c7f59323052.css HTTP/1.1" 304 0
+INFO 2022-06-28 15:01:12,947 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+WARNING 2022-06-28 15:01:12,956 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 15:01:12,956 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 15:01:12,990 basehttp 187 "GET /static/js/app.638c2a7e0cf745b2de47.js HTTP/1.1" 304 0
+INFO 2022-06-28 15:01:12,990 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+INFO 2022-06-28 15:01:13,108 basehttp 187 "GET /get/login/code/img?time=1656399673 HTTP/1.1" 200 1989
+INFO 2022-06-28 15:02:19,145 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:02:30,230 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:31:10,534 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 15:31:14,195 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 609, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Python\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 610, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 675, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 663, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 28, in process_response
+    if user_bank.get('user_'+userNum):
+  File "D:\Python\lib\site-packages\redis\commands\core.py", line 1699, in get
+    return self.execute_command("GET", name)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1232, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1383, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2022-06-28 15:31:14,200 basehttp 187 "GET / HTTP/1.1" 500 102062
+ERROR 2022-06-28 15:31:18,092 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 609, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Python\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 610, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 675, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 663, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 25, in process_response
+    user_bank.set('user_'+user_uuid,user_uuid,REDIS_USER_ID_TIME)
+  File "D:\Python\lib\site-packages\redis\commands\core.py", line 2214, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1232, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1383, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2022-06-28 15:31:18,099 basehttp 187 "GET / HTTP/1.1" 500 103865
+INFO 2022-06-28 15:31:37,452 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 15:31:37,487 basehttp 187 "GET /static/css/app.73a32bfa2b445ab002f04c7f59323052.css HTTP/1.1" 304 0
+WARNING 2022-06-28 15:31:37,490 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 15:31:37,497 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 15:31:37,504 basehttp 187 "GET /static/js/app.638c2a7e0cf745b2de47.js HTTP/1.1" 304 0
+INFO 2022-06-28 15:31:37,520 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 15:31:37,521 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+INFO 2022-06-28 15:31:37,645 basehttp 187 "GET /get/login/code/img?time=1656401497 HTTP/1.1" 200 2517
+INFO 2022-06-28 15:31:41,565 basehttp 187 "GET /get/login/code/img?time=1656401501 HTTP/1.1" 200 2418
+INFO 2022-06-28 15:32:03,948 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:32:05,811 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:34:51,286 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:34:51,865 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:38:50,649 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:38:51,239 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:38:55,677 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 15:38:55,753 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 15:38:55,757 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 15:38:55,906 basehttp 187 "GET /get/login/code/img?time=1656401935 HTTP/1.1" 200 2128
+ERROR 2022-06-28 15:39:05,874 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py", line 70, in post
+    if re.match(r'^[0-9a-zA-Z]{8,20}$', password):
+  File "D:\Python\lib\re.py", line 190, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2022-06-28 15:39:05,880 basehttp 187 "POST /admin/login HTTP/1.1" 500 77231
+INFO 2022-06-28 15:39:32,311 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:39:34,154 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:39:34,771 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 15:39:34,871 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 15:39:34,878 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 15:39:35,044 basehttp 187 "GET /get/login/code/img?time=1656401974 HTTP/1.1" 200 2438
+ERROR 2022-06-28 15:39:40,619 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py", line 71, in post
+    if re.match(r'^[0-9a-zA-Z]{8,20}$', password):
+  File "D:\Python\lib\re.py", line 190, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+ERROR 2022-06-28 15:39:40,626 basehttp 187 "POST /admin/login HTTP/1.1" 500 77258
+INFO 2022-06-28 15:40:39,099 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:40:39,769 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:40:42,649 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:40:43,404 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:40:45,270 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 15:40:45,331 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 15:40:45,334 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 15:40:45,502 basehttp 187 "GET /get/login/code/img?time=1656402045 HTTP/1.1" 200 2323
+ERROR 2022-06-28 15:40:50,903 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py", line 66, in post
+    password = request.POST['password']  # 密码
+  File "D:\Python\lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'password'
+ERROR 2022-06-28 15:40:50,921 basehttp 187 "POST /admin/login HTTP/1.1" 500 80865
+INFO 2022-06-28 15:41:20,429 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:41:22,063 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:41:22,437 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 15:41:22,503 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 15:41:22,505 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 15:41:22,639 basehttp 187 "GET /get/login/code/img?time=1656402082 HTTP/1.1" 200 2052
+ERROR 2022-06-28 15:41:26,453 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py", line 66, in post
+    password = request.JSON['password']  # 密码
+AttributeError: 'WSGIRequest' object has no attribute 'JSON'
+ERROR 2022-06-28 15:41:26,456 basehttp 187 "POST /admin/login HTTP/1.1" 500 73062
+INFO 2022-06-28 15:42:21,448 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:42:22,200 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:42:30,954 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:42:31,701 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:42:35,469 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:42:36,235 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:42:37,774 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:42:38,463 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:43:21,300 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:43:23,143 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 15:43:23,737 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py", line 67, in post
+    data = json.loads(request.bosy)
+AttributeError: 'WSGIRequest' object has no attribute 'bosy'
+ERROR 2022-06-28 15:43:23,768 basehttp 187 "POST /admin/login HTTP/1.1" 500 73035
+INFO 2022-06-28 15:43:35,928 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:43:37,429 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:43:40,510 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 15:51:16,759 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:51:19,740 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:52:55,719 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:52:57,817 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:54:33,720 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:54:34,414 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:57:59,250 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:58:00,265 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:58:22,369 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 15:58:23,072 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:59:41,079 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\EssayCode.py changed, reloading.
+INFO 2022-06-28 15:59:41,737 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:59:51,330 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\EssayCode.py changed, reloading.
+INFO 2022-06-28 15:59:51,960 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 15:59:57,380 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\EssayCode.py changed, reloading.
+INFO 2022-06-28 15:59:57,920 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:00:56,126 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Verify\views.py changed, reloading.
+INFO 2022-06-28 16:00:56,780 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:04:28,730 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:04:29,329 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:05:01,997 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:05:02,657 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:07:13,205 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:07:13,680 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:22:48,209 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:22:49,344 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:29:49,257 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:29:49,832 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:34:57,887 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\EssayCode.py changed, reloading.
+INFO 2022-06-28 16:34:59,249 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:35:16,272 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\EssayCode.py changed, reloading.
+INFO 2022-06-28 16:35:16,879 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:35:35,089 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 16:35:35,639 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:43:03,603 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 16:43:05,543 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:45:49,462 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 16:45:51,719 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:49:29,253 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 16:49:31,072 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:52:38,025 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:52:39,548 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:53:43,166 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:53:44,051 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:54:48,391 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:54:50,076 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:55:30,604 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:55:31,822 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 16:55:52,842 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 16:55:54,580 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:04:17,207 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 17:04:17,824 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:04:58,280 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 17:04:58,782 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:05:44,448 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 17:05:44,920 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:07:16,323 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:08:01,983 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\models.py changed, reloading.
+INFO 2022-06-28 17:08:02,462 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:08:54,389 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 17:08:54,996 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:15:18,089 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\lib\Encode.py changed, reloading.
+INFO 2022-06-28 17:15:19,296 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:21:52,127 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\dev\settings.py changed, reloading.
+INFO 2022-06-28 17:58:00,206 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:58:01,851 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 17:58:01,969 basehttp 187 "GET /static/css/app.73a32bfa2b445ab002f04c7f59323052.css HTTP/1.1" 304 0
+WARNING 2022-06-28 17:58:01,979 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 17:58:01,985 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3437
+INFO 2022-06-28 17:58:01,988 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 17:58:01,994 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+INFO 2022-06-28 17:58:01,994 basehttp 187 "GET /static/js/app.638c2a7e0cf745b2de47.js HTTP/1.1" 304 0
+INFO 2022-06-28 17:58:04,527 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 17:58:04,675 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 17:58:04,677 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3437
+INFO 2022-06-28 17:58:25,252 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 17:58:27,453 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 17:58:27,555 basehttp 187 "GET /static/css/app.73a32bfa2b445ab002f04c7f59323052.css HTTP/1.1" 304 0
+INFO 2022-06-28 17:58:27,572 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+WARNING 2022-06-28 17:58:27,578 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 17:58:27,585 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 17:58:27,589 basehttp 187 "GET /static/js/app.638c2a7e0cf745b2de47.js HTTP/1.1" 304 0
+INFO 2022-06-28 17:58:27,596 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+INFO 2022-06-28 17:58:27,707 basehttp 187 "GET /get/login/code/img?time=1656410307 HTTP/1.1" 200 2202
+ERROR 2022-06-28 17:58:34,376 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 33, in post
+    username = data['username']  # 用户名
+KeyError: 'username'
+ERROR 2022-06-28 17:58:34,380 basehttp 187 "POST /admin/login HTTP/1.1" 500 73450
+INFO 2022-06-28 18:03:52,771 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:03:56,271 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:03:56,712 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:03:56,864 basehttp 187 "GET /static/css/app.50189cb7ef92832d2312b66443a9989b.css HTTP/1.1" 200 14922
+INFO 2022-06-28 18:03:56,878 basehttp 187 "GET /static/js/app.e5842bb0e57c6440fe3b.js HTTP/1.1" 200 178398
+WARNING 2022-06-28 18:03:56,883 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:03:56,884 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:03:57,001 basehttp 187 "GET /get/login/code/img?time=1656410636 HTTP/1.1" 200 1916
+INFO 2022-06-28 18:06:42,598 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:06:58,290 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 18:06:58,353 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:06:58,354 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:06:58,394 basehttp 187 "GET /static/css/app.b785de9687a1c60da27948d9589048f8.css HTTP/1.1" 200 14922
+INFO 2022-06-28 18:06:58,403 basehttp 187 "GET /static/js/app.e52bc351e649f436f693.js HTTP/1.1" 200 178393
+WARNING 2022-06-28 18:06:58,673 log 241 Not Found: /favicon.ico
+WARNING 2022-06-28 18:06:58,679 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 3435
+INFO 2022-06-28 18:07:08,814 basehttp 187 "GET /get/login/code/img?time=1656410828 HTTP/1.1" 200 2288
+INFO 2022-06-28 18:07:17,267 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:07:36,752 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:08:00,277 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:08:02,603 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:08:02,695 basehttp 187 "GET /static/css/app.b785de9687a1c60da27948d9589048f8.css HTTP/1.1" 304 0
+WARNING 2022-06-28 18:08:02,710 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 18:08:02,716 basehttp 187 "GET /static/js/app.e52bc351e649f436f693.js HTTP/1.1" 304 0
+WARNING 2022-06-28 18:08:02,716 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:08:02,999 basehttp 187 "GET /get/login/code/img?time=1656410882 HTTP/1.1" 200 1886
+INFO 2022-06-28 18:08:11,209 basehttp 187 "GET /get/login/code/img?time=1656410891 HTTP/1.1" 200 2199
+INFO 2022-06-28 18:08:16,837 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:09:19,929 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:09:21,997 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:09:22,325 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:09:22,383 basehttp 187 "GET /static/css/app.b785de9687a1c60da27948d9589048f8.css HTTP/1.1" 304 0
+WARNING 2022-06-28 18:09:22,393 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:09:22,396 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:09:22,409 basehttp 187 "GET /static/js/app.e52bc351e649f436f693.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:09:22,504 basehttp 187 "GET /get/login/code/img?time=1656410962 HTTP/1.1" 200 1934
+INFO 2022-06-28 18:09:31,487 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:10:02,394 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:10:04,681 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:10:09,844 basehttp 187 "GET /get/login/code/img?time=1656411009 HTTP/1.1" 200 2215
+INFO 2022-06-28 18:10:15,177 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:10:33,102 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:10:34,844 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:10:37,015 basehttp 187 "GET /get/login/code/img?time=1656411036 HTTP/1.1" 200 2272
+ERROR 2022-06-28 18:10:41,815 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:10:41,821 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+ERROR 2022-06-28 18:11:31,175 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:11:31,180 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+INFO 2022-06-28 18:12:22,186 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:12:23,338 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:12:23,899 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:12:23,905 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+INFO 2022-06-28 18:13:20,738 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:13:21,803 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:13:22,186 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:13:22,191 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+INFO 2022-06-28 18:13:43,314 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:13:45,170 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:13:45,603 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:13:45,612 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+ERROR 2022-06-28 18:13:45,852 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:13:45,854 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+INFO 2022-06-28 18:14:02,418 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:14:03,904 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:14:04,504 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 54, in post
+    print(user_data['username'])
+TypeError: 'OwnerMessage' object is not subscriptable
+ERROR 2022-06-28 18:14:04,518 basehttp 187 "POST /admin/login HTTP/1.1" 500 73917
+INFO 2022-06-28 18:14:20,096 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:14:21,746 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:14:22,149 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:14:22,152 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+INFO 2022-06-28 18:17:03,427 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:17:04,536 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:17:04,953 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:17:05,064 basehttp 187 "GET /static/css/app.b785de9687a1c60da27948d9589048f8.css HTTP/1.1" 304 0
+INFO 2022-06-28 18:17:05,071 basehttp 187 "GET /static/js/app.e52bc351e649f436f693.js HTTP/1.1" 304 0
+WARNING 2022-06-28 18:17:05,075 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:17:05,076 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:17:05,167 basehttp 187 "GET /get/login/code/img?time=1656411425 HTTP/1.1" 200 1934
+INFO 2022-06-28 18:19:37,931 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:19:38,780 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:20:22,663 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:20:24,031 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:20:48,034 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:20:48,499 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:20:56,013 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:20:57,201 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:20:57,634 basehttp 187 "GET /get/login/code/img?time=1656411657 HTTP/1.1" 200 1741
+INFO 2022-06-28 18:21:03,946 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:21:26,806 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:21:28,732 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:21:32,094 basehttp 187 "GET /get/login/code/img?time=1656411692 HTTP/1.1" 200 1948
+INFO 2022-06-28 18:21:33,141 basehttp 187 "GET /get/login/code/img?time=1656411693 HTTP/1.1" 200 2327
+INFO 2022-06-28 18:21:37,761 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:22:07,616 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:23:21,360 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+WARNING 2022-06-28 18:23:30,768 basehttp 187 "GET /static/css/app.b785de9687a1c60da27948d9589048f8.css HTTP/1.1" 404 1895
+WARNING 2022-06-28 18:23:30,811 basehttp 187 "GET /static/js/app.e52bc351e649f436f693.js.map HTTP/1.1" 404 1865
+INFO 2022-06-28 18:23:30,862 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-28 18:23:30,873 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js.map HTTP/1.1" 200 995241
+INFO 2022-06-28 18:23:37,192 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:24:41,373 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:25:08,850 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:25:08,905 basehttp 187 "GET /static/css/app.eba9b03e221110dc8469bda4934dbca1.css HTTP/1.1" 200 14922
+WARNING 2022-06-28 18:25:08,923 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 18:25:08,924 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-28 18:25:08,929 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 200 200798
+WARNING 2022-06-28 18:25:08,933 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:25:08,947 basehttp 187 "GET /static/js/app.768fa997af1b8f4c9227.js HTTP/1.1" 200 178417
+INFO 2022-06-28 18:25:08,987 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-28 18:25:09,019 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js.map HTTP/1.1" 200 995241
+INFO 2022-06-28 18:25:09,035 basehttp 187 "GET /static/css/app.eba9b03e221110dc8469bda4934dbca1.css.map HTTP/1.1" 200 26785
+INFO 2022-06-28 18:25:09,038 basehttp 187 "GET /static/js/app.768fa997af1b8f4c9227.js.map HTTP/1.1" 200 510798
+INFO 2022-06-28 18:25:09,142 basehttp 187 "GET /get/login/code/img?time=1656411909 HTTP/1.1" 200 2010
+INFO 2022-06-28 18:25:23,387 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:25:23,402 basehttp 187 "GET /get/login/code/img?time=1656411923 HTTP/1.1" 200 2593
+INFO 2022-06-28 18:26:29,677 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:26:30,758 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:26:44,699 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:26:45,818 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:26:50,386 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:26:50,424 basehttp 187 "GET /get/login/code/img?time=1656412010 HTTP/1.1" 200 2317
+INFO 2022-06-28 18:27:33,525 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:27:34,877 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:27:39,051 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:27:39,098 basehttp 187 "GET /static/css/app.eba9b03e221110dc8469bda4934dbca1.css HTTP/1.1" 304 0
+WARNING 2022-06-28 18:27:39,131 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:27:39,136 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:27:39,210 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:27:39,210 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:27:39,215 basehttp 187 "GET /static/js/app.768fa997af1b8f4c9227.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:27:39,444 basehttp 187 "GET /get/login/code/img?time=1656412059 HTTP/1.1" 200 1854
+INFO 2022-06-28 18:28:23,346 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:28:24,459 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:28:28,504 basehttp 187 "GET /get/login/code/img?time=1656412108 HTTP/1.1" 200 2166
+ERROR 2022-06-28 18:28:33,199 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 59, in post
+    user_data = OwnerMessage.objects.get(username=username)
+  File "D:\Python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+User.models.OwnerMessage.DoesNotExist: OwnerMessage matching query does not exist.
+ERROR 2022-06-28 18:28:33,208 basehttp 187 "POST /admin/login HTTP/1.1" 500 82391
+INFO 2022-06-28 18:29:44,492 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:29:45,877 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:29:46,340 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 59, in post
+    user_data = OwnerMessage.objects.get(username=username)
+  File "D:\Python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+User.models.OwnerMessage.DoesNotExist: OwnerMessage matching query does not exist.
+ERROR 2022-06-28 18:29:46,345 basehttp 187 "POST /admin/login HTTP/1.1" 500 82449
+ERROR 2022-06-28 18:29:47,192 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 59, in post
+    user_data = OwnerMessage.objects.get(username=username)
+  File "D:\Python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+User.models.OwnerMessage.DoesNotExist: OwnerMessage matching query does not exist.
+ERROR 2022-06-28 18:29:47,195 basehttp 187 "POST /admin/login HTTP/1.1" 500 82449
+ERROR 2022-06-28 18:30:05,973 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 59, in post
+    user_data = OwnerMessage.objects.get(username=username)
+  File "D:\Python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+User.models.OwnerMessage.DoesNotExist: OwnerMessage matching query does not exist.
+ERROR 2022-06-28 18:30:05,975 basehttp 187 "POST /admin/login HTTP/1.1" 500 82449
+INFO 2022-06-28 18:31:57,215 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:31:59,046 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:31:59,645 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:31:59,673 basehttp 187 "GET /get/login/code/img?time=1656412319 HTTP/1.1" 200 2059
+INFO 2022-06-28 18:32:11,152 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:32:12,968 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:32:17,928 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 59, in post
+    user_data = OwnerMessage.objects.get(username=username)
+  File "D:\Python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+User.models.OwnerMessage.DoesNotExist: OwnerMessage matching query does not exist.
+ERROR 2022-06-28 18:32:17,936 basehttp 187 "POST /admin/login HTTP/1.1" 500 82454
+INFO 2022-06-28 18:32:46,890 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:32:48,666 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:32:52,917 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 58, in post
+    user_data = OwnerMessage.objects.get(username=username)
+  File "D:\Python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Python\lib\site-packages\django\db\models\query.py", line 496, in get
+    raise self.model.DoesNotExist(
+User.models.OwnerMessage.DoesNotExist: OwnerMessage matching query does not exist.
+ERROR 2022-06-28 18:32:52,924 basehttp 187 "POST /admin/login HTTP/1.1" 500 82373
+INFO 2022-06-28 18:33:13,446 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:33:13,992 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:33:34,927 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:33:35,384 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:33:38,980 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 61, in post
+    print(user_data)
+UnboundLocalError: local variable 'user_data' referenced before assignment
+ERROR 2022-06-28 18:33:38,992 basehttp 187 "POST /admin/login HTTP/1.1" 500 73698
+INFO 2022-06-28 18:34:32,964 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:34:34,658 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-28 18:34:37,689 log 241 Internal Server Error: /admin/login
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 18:34:37,694 basehttp 187 "POST /admin/login HTTP/1.1" 500 64750
+INFO 2022-06-28 18:35:51,444 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:35:53,181 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:35:55,290 basehttp 187 "POST /admin/login HTTP/1.1" 200 80
+INFO 2022-06-28 18:35:55,322 basehttp 187 "GET /get/login/code/img?time=1656412555 HTTP/1.1" 200 1910
+INFO 2022-06-28 18:36:12,842 basehttp 187 "POST /admin/login HTTP/1.1" 200 56
+INFO 2022-06-28 18:36:12,860 basehttp 187 "GET /get/login/code/img?time=1656412572 HTTP/1.1" 200 1919
+INFO 2022-06-28 18:36:20,814 basehttp 187 "POST /admin/login HTTP/1.1" 200 50
+INFO 2022-06-28 18:36:20,873 basehttp 187 "GET /get/login/code/img?time=1656412580 HTTP/1.1" 200 1884
+INFO 2022-06-28 18:37:01,984 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:37:03,162 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:37:03,369 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 18:37:03,434 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:37:03,438 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:37:03,470 basehttp 187 "GET /static/css/app.8a4d8b1bba9e9f72d537aa9a5779b4c9.css HTTP/1.1" 200 14922
+INFO 2022-06-28 18:37:03,483 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-28 18:37:03,512 basehttp 187 "GET /static/js/app.e273f5a35044ab374ad2.js HTTP/1.1" 200 178439
+INFO 2022-06-28 18:37:03,514 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 200 200798
+INFO 2022-06-28 18:37:03,615 basehttp 187 "GET /get/login/code/img?time=1656412623 HTTP/1.1" 200 2016
+INFO 2022-06-28 18:40:39,209 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:40:39,682 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:41:09,869 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:41:10,393 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:41:20,016 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:41:20,648 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:42:00,263 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\Time.py changed, reloading.
+INFO 2022-06-28 18:42:00,754 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:42:09,275 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\Time.py changed, reloading.
+INFO 2022-06-28 18:42:09,781 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:42:18,305 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\Time.py changed, reloading.
+INFO 2022-06-28 18:42:18,756 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:43:23,926 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\Time.py changed, reloading.
+INFO 2022-06-28 18:43:24,415 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:43:27,899 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:43:27,971 basehttp 187 "GET /static/css/app.8a4d8b1bba9e9f72d537aa9a5779b4c9.css HTTP/1.1" 304 0
+INFO 2022-06-28 18:43:27,978 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:43:27,979 basehttp 187 "GET /static/js/app.e273f5a35044ab374ad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:43:27,980 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+WARNING 2022-06-28 18:43:27,994 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:43:27,995 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:43:28,160 basehttp 187 "GET /get/login/code/img?time=1656413008 HTTP/1.1" 200 2342
+INFO 2022-06-28 18:43:40,163 basehttp 187 "GET /get/login/code/img?time=1656413020 HTTP/1.1" 200 1803
+INFO 2022-06-28 18:43:41,091 basehttp 187 "GET /get/login/code/img?time=1656413021 HTTP/1.1" 200 1872
+INFO 2022-06-28 18:43:46,175 basehttp 187 "POST /admin/login HTTP/1.1" 200 50
+INFO 2022-06-28 18:43:46,213 basehttp 187 "GET /get/login/code/img?time=1656413026 HTTP/1.1" 200 1908
+INFO 2022-06-28 18:44:10,710 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\data\Time.py changed, reloading.
+INFO 2022-06-28 18:44:11,290 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:44:15,551 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:44:15,591 basehttp 187 "GET /static/css/app.8a4d8b1bba9e9f72d537aa9a5779b4c9.css HTTP/1.1" 304 0
+INFO 2022-06-28 18:44:15,595 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:44:15,599 basehttp 187 "GET /static/js/app.e273f5a35044ab374ad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:44:15,599 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+WARNING 2022-06-28 18:44:15,605 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 18:44:15,607 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:44:15,709 basehttp 187 "GET /get/login/code/img?time=1656413055 HTTP/1.1" 200 2446
+INFO 2022-06-28 18:44:35,524 basehttp 187 "POST /admin/login HTTP/1.1" 200 50
+INFO 2022-06-28 18:44:35,560 basehttp 187 "GET /get/login/code/img?time=1656413075 HTTP/1.1" 200 1798
+INFO 2022-06-28 18:46:18,709 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 18:46:19,233 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:46:23,297 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 18:46:23,331 basehttp 187 "GET /static/css/app.8a4d8b1bba9e9f72d537aa9a5779b4c9.css HTTP/1.1" 304 0
+INFO 2022-06-28 18:46:23,335 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+WARNING 2022-06-28 18:46:23,343 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 18:46:23,345 basehttp 187 "GET /static/js/vendor.807a14403783f240cf50.js HTTP/1.1" 304 0
+WARNING 2022-06-28 18:46:23,345 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 3441
+INFO 2022-06-28 18:46:23,345 basehttp 187 "GET /static/js/app.e273f5a35044ab374ad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 18:46:23,430 basehttp 187 "GET /get/login/code/img?time=1656413183 HTTP/1.1" 200 2329
+INFO 2022-06-28 18:46:35,397 basehttp 187 "POST /admin/login HTTP/1.1" 200 50
+INFO 2022-06-28 18:46:35,414 basehttp 187 "GET /get/login/code/img?time=1656413195 HTTP/1.1" 200 2143
+INFO 2022-06-28 18:55:15,004 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\urls.py changed, reloading.
+INFO 2022-06-28 18:55:16,053 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:55:56,199 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\urls.py changed, reloading.
+INFO 2022-06-28 18:55:56,938 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 18:57:25,389 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\Essay\views.py changed, reloading.
+INFO 2022-06-28 18:57:25,997 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:01:56,250 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:01:56,884 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:02:13,688 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:02:14,325 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:03:29,902 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:03:30,625 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:03:51,009 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:03:52,025 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:04:24,807 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 19:04:24,871 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:04:24,872 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:04:24,924 basehttp 187 "GET /static/css/app.ed7e618d6ca2955e1c5ff42045ee15cb.css HTTP/1.1" 200 14922
+INFO 2022-06-28 19:04:24,930 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-28 19:04:24,938 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+INFO 2022-06-28 19:04:24,940 basehttp 187 "GET /static/js/app.01d8b9706a2230e76de5.js HTTP/1.1" 200 178653
+INFO 2022-06-28 19:04:25,046 basehttp 187 "GET /get/login/code/img?time=1656414264 HTTP/1.1" 200 1874
+ERROR 2022-06-28 19:04:57,080 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-28 19:04:57,095 basehttp 187 "GET / HTTP/1.1" 500 85698
+ERROR 2022-06-28 19:04:58,450 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-28 19:04:58,454 basehttp 187 "GET / HTTP/1.1" 500 85698
+INFO 2022-06-28 19:05:13,741 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:05:13,763 basehttp 187 "GET /static/css/app.8544d01f247a3dcf077b3e8cd121daa9.css HTTP/1.1" 200 14922
+WARNING 2022-06-28 19:05:13,779 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 19:05:13,779 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+WARNING 2022-06-28 19:05:13,780 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:05:13,783 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+INFO 2022-06-28 19:05:13,802 basehttp 187 "GET /static/js/app.d6c50e16424a119d8b49.js HTTP/1.1" 200 178675
+ERROR 2022-06-28 19:05:13,902 log 241 Internal Server Error: /login/verify
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+INFO 2022-06-28 19:05:13,907 basehttp 187 "GET /get/login/code/img?time=1656414313 HTTP/1.1" 200 2058
+ERROR 2022-06-28 19:05:13,927 basehttp 187 "GET /login/verify HTTP/1.1" 500 64599
+INFO 2022-06-28 19:06:11,056 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:06:11,085 basehttp 187 "GET /static/css/app.aed6202c3edda3388c4079b5938dab17.css HTTP/1.1" 200 14922
+WARNING 2022-06-28 19:06:11,098 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 19:06:11,099 basehttp 187 "GET /static/js/app.6c3bd97bf9cf6505cb3a.js HTTP/1.1" 200 178673
+INFO 2022-06-28 19:06:11,102 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+WARNING 2022-06-28 19:06:11,104 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:06:11,104 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+ERROR 2022-06-28 19:06:11,232 log 241 Internal Server Error: /login/verify
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+INFO 2022-06-28 19:06:11,240 basehttp 187 "GET /get/login/code/img?time=1656414371 HTTP/1.1" 200 2014
+ERROR 2022-06-28 19:06:11,270 basehttp 187 "GET /login/verify HTTP/1.1" 500 64599
+INFO 2022-06-28 19:06:45,661 basehttp 187 "POST /login/admin HTTP/1.1" 200 50
+INFO 2022-06-28 19:06:45,688 basehttp 187 "GET /get/login/code/img?time=1656414405 HTTP/1.1" 200 2047
+INFO 2022-06-28 19:06:54,058 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:06:54,096 basehttp 187 "GET /static/css/app.aed6202c3edda3388c4079b5938dab17.css HTTP/1.1" 304 0
+INFO 2022-06-28 19:06:54,107 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+WARNING 2022-06-28 19:06:54,109 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 19:06:54,115 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+WARNING 2022-06-28 19:06:54,121 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:06:54,121 basehttp 187 "GET /static/js/app.6c3bd97bf9cf6505cb3a.js HTTP/1.1" 304 0
+ERROR 2022-06-28 19:06:54,239 log 241 Internal Server Error: /login/verify
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+INFO 2022-06-28 19:06:54,248 basehttp 187 "GET /get/login/code/img?time=1656414414 HTTP/1.1" 200 1799
+ERROR 2022-06-28 19:06:54,263 basehttp 187 "GET /login/verify HTTP/1.1" 500 64820
+INFO 2022-06-28 19:09:42,425 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:09:43,016 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:09:50,699 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:09:51,429 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:09:57,136 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:09:57,202 basehttp 187 "GET /static/css/app.aed6202c3edda3388c4079b5938dab17.css HTTP/1.1" 304 0
+INFO 2022-06-28 19:09:57,213 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:09:57,217 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:09:57,223 basehttp 187 "GET /static/js/app.6c3bd97bf9cf6505cb3a.js HTTP/1.1" 304 0
+WARNING 2022-06-28 19:09:57,231 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:09:57,232 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+ERROR 2022-06-28 19:09:57,439 log 241 Internal Server Error: /login/verify
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 90, in get
+    session = request.get_sessionid(userNum)
+AttributeError: 'WSGIRequest' object has no attribute 'get_sessionid'
+INFO 2022-06-28 19:09:57,456 basehttp 187 "GET /get/login/code/img?time=1656414597 HTTP/1.1" 200 2201
+ERROR 2022-06-28 19:09:57,457 basehttp 187 "GET /login/verify HTTP/1.1" 500 72882
+INFO 2022-06-28 19:10:03,826 basehttp 187 "POST /login/admin HTTP/1.1" 200 50
+INFO 2022-06-28 19:10:03,848 basehttp 187 "GET /get/login/code/img?time=1656414603 HTTP/1.1" 200 1997
+INFO 2022-06-28 19:10:47,547 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:10:48,153 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:10:51,791 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:10:51,828 basehttp 187 "GET /static/css/app.aed6202c3edda3388c4079b5938dab17.css HTTP/1.1" 304 0
+INFO 2022-06-28 19:10:51,837 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:10:51,839 basehttp 187 "GET /static/js/app.6c3bd97bf9cf6505cb3a.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:10:51,841 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+WARNING 2022-06-28 19:10:51,848 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:10:51,852 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+ERROR 2022-06-28 19:10:51,985 log 241 Internal Server Error: /login/verify
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-06-28 19:10:51,994 basehttp 187 "GET /login/verify HTTP/1.1" 500 64599
+INFO 2022-06-28 19:10:51,999 basehttp 187 "GET /get/login/code/img?time=1656414651 HTTP/1.1" 200 2385
+INFO 2022-06-28 19:11:00,203 basehttp 187 "POST /login/admin HTTP/1.1" 200 50
+INFO 2022-06-28 19:11:00,226 basehttp 187 "GET /get/login/code/img?time=1656414660 HTTP/1.1" 200 2261
+INFO 2022-06-28 19:11:06,026 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 19:11:06,063 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:11:06,064 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+ERROR 2022-06-28 19:11:06,165 log 241 Internal Server Error: /login/verify
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view User.views.view didn't return an HttpResponse object. It returned None instead.
+INFO 2022-06-28 19:11:06,167 basehttp 187 "GET /get/login/code/img?time=1656414666 HTTP/1.1" 200 2128
+ERROR 2022-06-28 19:11:06,185 basehttp 187 "GET /login/verify HTTP/1.1" 500 64820
+INFO 2022-06-28 19:12:34,750 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:12:35,343 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:14:20,921 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:14:21,403 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:14:28,820 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:14:28,870 basehttp 187 "GET /static/css/app.aed6202c3edda3388c4079b5938dab17.css HTTP/1.1" 304 0
+WARNING 2022-06-28 19:14:28,882 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:14:28,882 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:14:28,915 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:14:28,915 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:14:28,919 basehttp 187 "GET /static/js/app.6c3bd97bf9cf6505cb3a.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:14:28,991 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-28 19:14:29,029 basehttp 187 "GET /get/login/code/img?time=1656414868 HTTP/1.1" 200 2136
+INFO 2022-06-28 19:14:51,478 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 19:14:51,520 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:14:51,523 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:14:51,586 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-28 19:14:51,609 basehttp 187 "GET /get/login/code/img?time=1656414891 HTTP/1.1" 200 2080
+INFO 2022-06-28 19:15:03,252 basehttp 187 "POST /login/admin HTTP/1.1" 200 50
+INFO 2022-06-28 19:15:03,275 basehttp 187 "GET /get/login/code/img?time=1656414903 HTTP/1.1" 200 1753
+INFO 2022-06-28 19:15:22,092 basehttp 187 "GET /static/Live2dApi/indexes/Potion-Maker/Pio/new2015-costume-pajamas.json HTTP/1.1" 200 1864
+INFO 2022-06-28 19:15:22,110 basehttp 187 "GET /static/Live2dApi/models/Potion-Maker/Pio/textures/textures_00/new2015-costume-pajamas.png HTTP/1.1" 200 462155
+INFO 2022-06-28 19:15:22,992 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&summer2017-low-upper&xmas-lower&xmas-headwear.json HTTP/1.1" 200 1273
+INFO 2022-06-28 19:15:23,013 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/xmas-headwear.png HTTP/1.1" 200 61202
+INFO 2022-06-28 19:15:23,647 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/noir/textures.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,656 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/noir/default.json HTTP/1.1" 200 988
+INFO 2022-06-28 19:15:23,665 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/model.moc HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,687 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,697 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/textures/01/01.png HTTP/1.1" 200 807730
+INFO 2022-06-28 19:15:23,699 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/textures/02/02.png HTTP/1.1" 200 879484
+INFO 2022-06-28 19:15:23,770 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/noir/physics.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,773 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/pose.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,773 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/mtn/idle_00.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,778 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/mtn/idle_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:23,780 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/general/mtn/idle_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,237 basehttp 187 "GET /static/Live2dApi/indexes/ShizukuTalk/shizuku-48/textures.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,248 basehttp 187 "GET /static/Live2dApi/indexes/ShizukuTalk/shizuku-48/00&01&02&03&04&05&06&07.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,257 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/model.moc HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,286 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/04/04.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,288 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,289 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,289 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/03/03.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,291 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/05/05.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,294 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,297 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/07/07.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,299 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/textures/06/06.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,345 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f02.exp.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,345 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f01.exp.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,346 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/physics.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,346 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f03.exp.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,346 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/pose.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,346 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/expressions/f04.exp.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,350 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_00.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,353 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,355 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,359 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_05.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,363 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_03.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,364 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_03.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,367 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idl_04.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,368 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,370 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,370 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_04.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,375 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_06.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,376 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_05.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,378 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_07.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,381 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_A.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,383 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_09.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,384 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_08.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,391 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_B.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,392 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_A2.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,392 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_B2.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,395 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_C.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,397 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_C2.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,399 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/idle_C2_copy.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,401 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/kurakura1.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,409 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/kurakura2.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,410 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/kurakura3.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,410 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,411 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,411 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_03.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,415 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_04.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,427 basehttp 187 "GET /static/Live2dApi/models/ShizukuTalk/shizuku-48/motions/wait_05.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,963 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/22/closet-default-v2&tomo-low-upper&default-lower&school2017-hat.json HTTP/1.1" 200 1269
+INFO 2022-06-28 19:15:24,984 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_02/default-lower.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:24,986 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_01/tomo-low-upper.png HTTP/1.1" 200 26433
+INFO 2022-06-28 19:15:24,989 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/22/textures/texture_03/school2017-hat.png HTTP/1.1" 200 255025
+INFO 2022-06-28 19:15:25,808 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/noir/00&01&02.json HTTP/1.1" 200 988
+INFO 2022-06-28 19:15:26,319 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&default-upper&tomo-low-lower&xmas-hat.json HTTP/1.1" 200 1265
+INFO 2022-06-28 19:15:26,340 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/default-upper.png HTTP/1.1" 200 25722
+INFO 2022-06-28 19:15:26,340 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/tomo-low-lower.png HTTP/1.1" 200 13935
+INFO 2022-06-28 19:15:26,341 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/xmas-hat.png HTTP/1.1" 200 62531
+INFO 2022-06-28 19:15:26,845 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/blanc_normal/textures.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,850 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/blanc_normal/default.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,856 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/model.moc HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,874 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/03/03.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,874 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,874 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,874 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:26,957 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/blanc_normal/physics.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,368 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/nepnep/textures.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,380 basehttp 187 "GET /static/Live2dApi/indexes/HyperdimensionNeptunia/nepnep/00&01&02.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,388 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/model.moc HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,402 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/textures/02/02.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,402 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/textures/01/01.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,403 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/textures/00/00.png HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,472 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/normal.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,480 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/kira.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,480 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/deformed.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,481 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/enjoy.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,482 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/happy.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,482 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/physics.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,485 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/exp/unhappy.json HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,486 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/mtn/idle_00.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,492 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/mtn/idle_01.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:27,493 basehttp 187 "GET /static/Live2dApi/models/HyperdimensionNeptunia/nepnep/general/mtn/idle_02.mtn HTTP/1.1" 304 0
+INFO 2022-06-28 19:15:34,138 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&summer2017-low-upper&school2017-lower&spring-2018-hat.json HTTP/1.1" 200 1281
+INFO 2022-06-28 19:15:34,752 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&cba-normal-upper&cba-super-lower&tomo-low-hat.json HTTP/1.1" 200 1273
+INFO 2022-06-28 19:15:34,771 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/cba-normal-upper.png HTTP/1.1" 200 22896
+INFO 2022-06-28 19:15:35,280 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&summer2017-high-upper&school2017-lower&newyear-hat.json HTTP/1.1" 200 1278
+INFO 2022-06-28 19:15:35,297 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/summer2017-high-upper.png HTTP/1.1" 200 32622
+INFO 2022-06-28 19:15:35,297 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/newyear-hat.png HTTP/1.1" 200 67751
+INFO 2022-06-28 19:15:35,535 basehttp 187 "GET /static/Live2dApi/indexes/bilibili-live/33/closet-default-v2&tomo-low-upper&newyear-lower&school2017-hat.json HTTP/1.1" 200 1271
+INFO 2022-06-28 19:15:35,556 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_02/newyear-lower.png HTTP/1.1" 200 14845
+INFO 2022-06-28 19:15:35,557 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_01/tomo-low-upper.png HTTP/1.1" 200 27299
+INFO 2022-06-28 19:15:35,557 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/school2017-hat.png HTTP/1.1" 200 74235
+INFO 2022-06-28 19:15:51,789 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-28 19:15:52,444 autoreload 677 Watching for file changes with StatReloader
