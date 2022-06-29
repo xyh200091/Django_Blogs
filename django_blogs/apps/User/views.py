@@ -42,11 +42,17 @@ class LoginAdminView(View):
             })
         userNum = request.COOKIES.get('userNum')
         code_bank = get_redis_connection('code')
-        if not re.match(r'^[0-9a-zA-Z]{4}$', img_code) or code_bank.get(
-                "img_code_" + userNum).decode().lower() != img_code.lower():
+        try:
+            if not re.match(r'^[0-9a-zA-Z]{4}$', img_code) or code_bank.get(
+                    "img_code_" + userNum).decode().lower() != img_code.lower():
+                return http.JsonResponse({
+                    'code': USER_IMG_CODE,
+                    'info': '验证码错误'
+                })
+        except AttributeError:
             return http.JsonResponse({
                 'code': USER_IMG_CODE,
-                'info': '验证码错误'
+                'info': '验证码过期'
             })
 
         if (not re.match(r'^[a-zA-Z][a-zA-Z0-9]{4,19}$', username)):

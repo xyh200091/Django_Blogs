@@ -10256,3 +10256,45 @@ WARNING 2022-06-29 12:52:04,234 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2
 INFO 2022-06-29 12:52:04,284 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
 INFO 2022-06-29 12:52:04,305 basehttp 187 "GET /get/login/code/img?time=1656478324 HTTP/1.1" 200 1770
 INFO 2022-06-29 12:52:20,159 basehttp 187 "GET /login/out?time=1656478340 HTTP/1.1" 200 38
+INFO 2022-06-29 12:52:20,169 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+ERROR 2022-06-29 12:59:00,443 log 241 Internal Server Error: /login/admin
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py", line 46, in post
+    "img_code_" + userNum).decode().lower() != img_code.lower():
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2022-06-29 12:59:00,461 basehttp 187 "POST /login/admin HTTP/1.1" 500 76173
+INFO 2022-06-29 12:59:00,483 basehttp 187 "GET /get/login/code/img?time=1656478740 HTTP/1.1" 200 2037
+INFO 2022-06-29 12:59:33,336 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-29 12:59:33,408 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-29 12:59:33,470 basehttp 187 "GET /static/css/app.afe5b5e42a2ee139185333c3409b3518.css HTTP/1.1" 200 15736
+WARNING 2022-06-29 12:59:33,486 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2801
+INFO 2022-06-29 12:59:33,531 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+INFO 2022-06-29 12:59:33,560 basehttp 187 "GET /static/js/app.c6e4fcbddf86dba6a6b5.js HTTP/1.1" 200 179051
+INFO 2022-06-29 12:59:33,570 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-29 12:59:33,952 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-29 12:59:33,998 basehttp 187 "GET /get/login/code/img?time=1656478773 HTTP/1.1" 200 1978
+INFO 2022-06-29 12:59:40,981 basehttp 187 "POST /login/admin HTTP/1.1" 200 50
+INFO 2022-06-29 12:59:41,016 basehttp 187 "GET /get/login/code/img?time=1656478780 HTTP/1.1" 200 1762
+INFO 2022-06-29 12:59:42,912 basehttp 187 "GET /login/out?time=1656478782 HTTP/1.1" 200 38
+INFO 2022-06-29 12:59:42,921 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-29 12:59:53,670 basehttp 187 "POST /login/admin HTTP/1.1" 200 50
+INFO 2022-06-29 12:59:53,691 basehttp 187 "GET /get/login/code/img?time=1656478793 HTTP/1.1" 200 2151
+INFO 2022-06-29 13:00:59,384 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
+INFO 2022-06-29 13:01:00,184 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-29 13:01:01,191 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-29 13:01:01,233 basehttp 187 "GET /static/css/app.afe5b5e42a2ee139185333c3409b3518.css HTTP/1.1" 304 0
+INFO 2022-06-29 13:01:01,244 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-29 13:01:01,247 basehttp 187 "GET /static/js/app.c6e4fcbddf86dba6a6b5.js HTTP/1.1" 304 0
+INFO 2022-06-29 13:01:01,248 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+WARNING 2022-06-29 13:01:01,253 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-29 13:01:01,258 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2801
+INFO 2022-06-29 13:01:01,326 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-29 13:01:01,387 basehttp 187 "GET /get/login/code/img?time=1656478861 HTTP/1.1" 200 2402
