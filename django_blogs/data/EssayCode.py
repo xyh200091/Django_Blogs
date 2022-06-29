@@ -11,6 +11,7 @@ SQL_REDO = 4201  # 数据库数据重复
 USER_ACCOUNT = 4300  # 密码不正确
 USER_IMG_CODE = 4301  # 图片验证码不正确
 USER_VERIFY = 4302  # 验证登录错误
+USER_NOT = 4399  # 未登录
 
 """时间错误44开头"""
 TIME_EXCEED = 4400

@@ -13,5 +13,31 @@
         /* z-index: 2; */
     }
 
+    .head {
+        display: flex;
+        flex-direction: row;
+        padding: 0.8vw 3vw;
+        justify-content: space-between;
+        background-color: rgb(58, 62, 80);
+    }
 
+    .head_title {
+        font-size: 2vw;
+        color: #fff;
+        letter-spacing: 0.1vw;
+        font-weight: 800;
+    }
+
+    .head_btn {
+        padding: 0 0.5vw;
+        background-color: rgba(255, 255, 255, 0);
+        border: 0;
+        font-size: 1vw;
+        color: #fff;
+        border-radius: 0.5vw;
+    }
+
+    .head_btn:hover {
+        background-color: rgba(255, 255, 255, 0.185);
+    }
 }

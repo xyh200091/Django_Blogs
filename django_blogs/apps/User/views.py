@@ -98,3 +98,37 @@ class VerifyLoginView(View):
             return http.JsonResponse({
                 'code': USER_VERIFY
             })
+
+
+class LoginOutView(View):
+    def get(self, request):
+        """
+        1、获取数据
+        2、验证数据
+        3、清除数据
+        4、返回状态
+        """
+        t = request.GET.get('time')
+        userNum = request.COOKIES.get('userNum')
+        if math.fabs(time.time() - int(t)) > 60:
+            return http.JsonResponse({
+                'code': TIME_EXCEED,
+                'info': "超时连接"
+            })
+
+        if not request.session.get(userNum):
+            return http.JsonResponse({
+                'code': USER_NOT,
+                'info': "未登录"
+            })
+
+        del request.session[userNum]
+        response = http.JsonResponse({
+            'code': CORRECT,
+            'info': "成功"
+        })
+        response.delete_cookie('sessionid')
+
+        return response
+
+

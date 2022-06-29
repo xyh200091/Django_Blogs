@@ -53,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'User.middleware.BoundId',  # 访问绑定Id编号
+    'User.middleware.ResetSession'  # 重置session保存时间
 ]
 
 ROOT_URLCONF = 'django_blogs.urls'
