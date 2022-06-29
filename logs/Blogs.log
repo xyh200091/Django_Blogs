@@ -8884,3 +8884,197 @@ INFO 2022-06-28 19:15:35,557 basehttp 187 "GET /static/Live2dApi/models/bilibili
 INFO 2022-06-28 19:15:35,557 basehttp 187 "GET /static/Live2dApi/models/bilibili-live/33/textures/texture_03/school2017-hat.png HTTP/1.1" 200 74235
 INFO 2022-06-28 19:15:51,789 autoreload 266 D:\Itmes\Django\django_blogs\django_blogs\apps\User\views.py changed, reloading.
 INFO 2022-06-28 19:15:52,444 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-06-28 19:25:20,667 basehttp 187 "GET / HTTP/1.1" 200 547
+WARNING 2022-06-28 19:25:20,742 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:25:20,748 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:25:20,808 basehttp 187 "GET /static/css/app.b0cd4cdb236627fd64ffafd929df1437.css HTTP/1.1" 200 14922
+INFO 2022-06-28 19:25:20,820 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+INFO 2022-06-28 19:25:20,828 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-28 19:25:20,834 basehttp 187 "GET /static/js/app.4b1343bb62a4eb69c713.js HTTP/1.1" 200 178782
+INFO 2022-06-28 19:25:20,887 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-28 19:25:20,934 basehttp 187 "GET /get/login/code/img?time=1656415520 HTTP/1.1" 200 1950
+INFO 2022-06-28 19:25:21,936 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:25:21,997 basehttp 187 "GET /static/css/app.b0cd4cdb236627fd64ffafd929df1437.css HTTP/1.1" 304 0
+INFO 2022-06-28 19:25:22,011 basehttp 187 "GET /static/js/app.4b1343bb62a4eb69c713.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:25:22,012 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:25:22,012 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+WARNING 2022-06-28 19:25:22,015 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:25:22,017 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:25:22,048 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-28 19:25:22,063 basehttp 187 "GET /get/login/code/img?time=1656415522 HTTP/1.1" 200 1829
+INFO 2022-06-28 19:25:32,021 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:25:32,061 basehttp 187 "GET /static/css/app.b0cd4cdb236627fd64ffafd929df1437.css HTTP/1.1" 304 0
+INFO 2022-06-28 19:25:32,062 basehttp 187 "GET /static/js/app.4b1343bb62a4eb69c713.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:25:32,062 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 304 0
+INFO 2022-06-28 19:25:32,062 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 304 0
+WARNING 2022-06-28 19:25:32,066 log 241 Not Found: /js/md5.min.js
+WARNING 2022-06-28 19:25:32,070 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+ERROR 2022-06-28 19:26:28,988 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-28 19:26:28,995 basehttp 187 "GET / HTTP/1.1" 500 85919
+INFO 2022-06-28 19:26:41,415 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:26:41,448 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-28 19:26:41,449 basehttp 187 "GET /static/css/app.1677ee5e43f912c732a4e51450bc1dfe.css HTTP/1.1" 200 14922
+WARNING 2022-06-28 19:26:41,451 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 19:26:41,453 basehttp 187 "GET /static/js/app.7b3474310f31d2868ca9.js HTTP/1.1" 200 178783
+INFO 2022-06-28 19:26:41,453 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+WARNING 2022-06-28 19:26:41,478 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:26:45,159 basehttp 187 "GET /get/login/code/img?time=1656415605 HTTP/1.1" 200 2021
+INFO 2022-06-28 19:26:45,206 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-28 19:28:35,473 basehttp 187 "GET /static/css/app.1677ee5e43f912c732a4e51450bc1dfe.css HTTP/1.1" 304 0
+INFO 2022-06-28 19:28:35,568 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-28 19:28:35,579 basehttp 187 "GET /static/js/app.7b3474310f31d2868ca9.js.map HTTP/1.1" 200 511987
+INFO 2022-06-28 19:28:35,582 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js.map HTTP/1.1" 200 1004189
+INFO 2022-06-28 19:28:35,606 basehttp 187 "GET /static/css/app.1677ee5e43f912c732a4e51450bc1dfe.css.map HTTP/1.1" 200 26799
+ERROR 2022-06-28 19:39:35,166 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\Page\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2022-06-28 19:39:35,171 basehttp 187 "GET / HTTP/1.1" 500 85919
+INFO 2022-06-28 19:40:14,786 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-28 19:40:14,806 basehttp 187 "GET /static/css/app.4c61f53b0566a3dcf572a9dbc66dd879.css HTTP/1.1" 200 14943
+WARNING 2022-06-28 19:40:14,820 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-28 19:40:14,822 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+INFO 2022-06-28 19:40:14,826 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+WARNING 2022-06-28 19:40:14,836 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-28 19:40:14,842 basehttp 187 "GET /static/js/app.374e640434c592041fcc.js HTTP/1.1" 200 178811
+INFO 2022-06-28 19:40:14,907 basehttp 187 "GET /static/css/app.4c61f53b0566a3dcf572a9dbc66dd879.css.map HTTP/1.1" 200 26822
+INFO 2022-06-28 19:40:14,910 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-28 19:40:14,922 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js.map HTTP/1.1" 200 1004189
+INFO 2022-06-28 19:40:14,952 basehttp 187 "GET /static/js/app.374e640434c592041fcc.js.map HTTP/1.1" 200 512067
+INFO 2022-06-28 19:40:14,999 basehttp 187 "GET /login/verify HTTP/1.1" 200 14
+INFO 2022-06-28 19:40:15,031 basehttp 187 "GET /get/login/code/img?time=1656416414 HTTP/1.1" 200 1803
+INFO 2022-06-29 09:05:36,899 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-06-29 09:05:49,731 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 609, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Python\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 610, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 675, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 663, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 25, in process_response
+    user_bank.set('user_'+user_uuid,user_uuid,REDIS_USER_ID_TIME)
+  File "D:\Python\lib\site-packages\redis\commands\core.py", line 2214, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1232, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1383, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2022-06-29 09:05:49,739 basehttp 187 "GET / HTTP/1.1" 500 103728
+ERROR 2022-06-29 09:05:53,136 log 241 Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 609, in connect
+    sock = self.retry.call_with_retry(
+  File "D:\Python\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 610, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 675, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 663, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "D:\Itmes\Django\django_blogs\django_blogs\apps\User\middleware.py", line 25, in process_response
+    user_bank.set('user_'+user_uuid,user_uuid,REDIS_USER_ID_TIME)
+  File "D:\Python\lib\site-packages\redis\commands\core.py", line 2214, in set
+    return self.execute_command("SET", *pieces, **options)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1232, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1383, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2022-06-29 09:05:53,153 basehttp 187 "GET /favicon.ico HTTP/1.1" 500 103760
+INFO 2022-06-29 09:06:05,501 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-29 09:06:05,634 basehttp 187 "GET /static/css/app.3388694c80c857d37fb7b108d97ef8ce.css HTTP/1.1" 200 14949
+INFO 2022-06-29 09:06:05,638 basehttp 187 "GET /static/js/app.c6faa7820ef72038a3f6.js HTTP/1.1" 200 178811
+WARNING 2022-06-29 09:06:05,665 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-29 09:06:05,669 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+WARNING 2022-06-29 09:06:05,669 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-29 09:06:05,670 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+WARNING 2022-06-29 09:06:05,809 log 241 Not Found: /favicon.ico
+WARNING 2022-06-29 09:06:05,811 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2643
+INFO 2022-06-29 09:06:12,534 basehttp 187 "GET /static/css/app.3388694c80c857d37fb7b108d97ef8ce.css HTTP/1.1" 304 0
+INFO 2022-06-29 09:06:12,641 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-29 09:06:12,647 basehttp 187 "GET /static/js/app.c6faa7820ef72038a3f6.js.map HTTP/1.1" 200 512099
+INFO 2022-06-29 09:06:12,652 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js.map HTTP/1.1" 200 1004189
+INFO 2022-06-29 09:06:12,700 basehttp 187 "GET /static/css/app.3388694c80c857d37fb7b108d97ef8ce.css.map HTTP/1.1" 200 26864
+INFO 2022-06-29 09:37:43,070 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-29 09:37:43,101 basehttp 187 "GET /static/css/app.5ee69e90d7da72b8f876e138aa9e5407.css HTTP/1.1" 200 15147
+WARNING 2022-06-29 09:37:43,131 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-29 09:37:43,132 basehttp 187 "GET /static/js/app.46bf5183067f7218c23f.js HTTP/1.1" 200 178851
+WARNING 2022-06-29 09:37:43,146 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-29 09:37:43,180 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+INFO 2022-06-29 09:37:43,204 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+INFO 2022-06-29 09:37:43,249 basehttp 187 "GET /static/css/app.5ee69e90d7da72b8f876e138aa9e5407.css.map HTTP/1.1" 200 27113
+INFO 2022-06-29 09:37:43,252 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-29 09:37:43,292 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js.map HTTP/1.1" 200 1004189
+INFO 2022-06-29 09:37:43,327 basehttp 187 "GET /static/js/app.46bf5183067f7218c23f.js.map HTTP/1.1" 200 512225
+INFO 2022-06-29 09:39:37,710 basehttp 187 "GET / HTTP/1.1" 200 547
+INFO 2022-06-29 09:39:37,755 basehttp 187 "GET /static/css/app.c319340e826567f7f5aada1866b8dbda.css HTTP/1.1" 200 15147
+INFO 2022-06-29 09:39:37,755 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js HTTP/1.1" 200 858
+WARNING 2022-06-29 09:39:37,755 log 241 Not Found: /js/md5.min.js
+INFO 2022-06-29 09:39:37,757 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js HTTP/1.1" 200 203518
+WARNING 2022-06-29 09:39:37,768 basehttp 187 "GET /js/md5.min.js HTTP/1.1" 404 2649
+INFO 2022-06-29 09:39:37,772 basehttp 187 "GET /static/js/app.9f0f3f23ecc91e6a71b3.js HTTP/1.1" 200 178851
+INFO 2022-06-29 09:39:37,843 basehttp 187 "GET /static/js/manifest.3ad1d5771e9b13dbdad2.js.map HTTP/1.1" 200 4973
+INFO 2022-06-29 09:39:37,848 basehttp 187 "GET /static/css/app.c319340e826567f7f5aada1866b8dbda.css.map HTTP/1.1" 200 27114
+INFO 2022-06-29 09:39:37,854 basehttp 187 "GET /static/js/vendor.807689cd91a610a84594.js.map HTTP/1.1" 200 1004189
